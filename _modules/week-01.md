@@ -5,6 +5,12 @@ title: Introduction to Java
 Sep 28
 : [Java & Git](#)
   : [1.1](#)
+: [Java & Git](#)
+  : [1.1](#)
+: [Java & Git](#)
+: [Java & Git](#)
+  : [1.1](#)
+  : [1.1](#)
 
 Sep 29
 : **Section**{: .label .label-purple }[Intro to Java](#)
