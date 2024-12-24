@@ -1,39 +1,95 @@
 ---
 layout: home
-title: Just the Class
+title: Hands-On PCB Engineering (HOPE)
 nav_exclude: true
 permalink: /:path/
 seo:
   type: Course
-  name: Just the Class
+  name: Berkeley IEEE HOPE
 ---
 
-# Just the Class
+# Hands-On PCB Engineering (HOPE)
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+## Course Info
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+Through HOPE, you will learn effective printed circuit board (PCB) design and develop the skills to build custom electronics for classes, personal projects, student teams, and more. You will learn effective system, schematic, and layout design for PCBs through hands-on labs and experience basic PCB assembly and bringup. You will also be exposed to some advanced PCB design topics such as DFx, signal and power integrity, grounding, and thermals. At the end of the semester, you will combine all of your skills in a student design project.
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+## Enrolling in HOPE
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+Students who are interested in signing up for HOPE in Spring 2025 should fill out [THIS](https://example.com) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Fall '24 was [https://decal.berkeley.edu/courses/7583](https://decal.berkeley.edu/courses/7583).
 
-## Getting Started
+Please email us if you are a concurrent enrollment student- we prioritize matriculated UC Berkeley students. Space permitting, however, concurrent enrollment students are welcome to take HOPE.
 
-Getting started with Just the Class is simple.
+Classes begin week of DATE GO HERE.
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+We offer HOPE as an in-person class this semester. We plan to hold two identical sections of class each week (Tues and Wed), and you can choose which section to enroll in.
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+## Prerequisites
 
-### Local development environment
+HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EE 16A or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. PHYSICS 7B, BIOE 105).
 
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+## Project Showcase
+
+[Spring 2024 Showcase](https://sites.google.com/berkeley.edu/hope-sp24/?ref=ieee.berkeley.edu)
+
+# Grading
+
+Your grade is primarily based on completion of labs and assignments. The final project is graded both on completion and demonstration of concepts taught in the course. Students need 70% to pass.
+
+See bCourses for detailed grading breakdown. We will keep track of grade-related things in bCourses. Other course content will be found here on the website.
+
+## Office Hours
+
+For students that need extra support time, we will hold staff office hours at the Supernode (Cory 246). Check [HERE](https://calendar.google.com/calendar/u/1?cid=Y19zNHVpbDdwa2d0NXZnYTRtNzAwYTVuaWRuNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&ref=ieee.studentorg.berkeley.edu) for availability.
+
+## Contact
+
+Please email us at [ieee-hope@lists.berkeley.edu](ieee-hope@lists.berkeley.edu)
+
+# Resources
+
+[Design Reference Doc](https://docs.google.com/document/d/1sA1MmZkygvkN0kvH0_EiXm4IRMi5ilCOcb7CaAVOmxY/edit?usp=sharing&ref=ieee.berkeley.edu)
+
+[Checkoff Queue](https://forms.gle/oktJrU6brcofPdiM8?ref=ieee.berkeley.edu)
+
+[HOPE Forms Master Page](https://ieee.berkeley.edu/hopeforms/)
+
+# Course Schedule
+
+TBD
+
+CALENDAR GO HERE
+
+{% for module in site.modules %} {{ module }} {% endfor %}
+
+{% for schedule in site.schedules %} {{ schedule }} {% endfor %}
+
+# Staff
+
+Staff information is stored in the `_staffers` directory and rendered according to the layout file, `_layouts/staffer.html`.
+
+## Instructors
+
+{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+{% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
+
+{% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
+{% assign num_teaching_assistants = teaching_assistants | size %}
+{% if num_teaching_assistants != 0 %}
+## Teaching Assistants
+
+{% for staffer in teaching_assistants %}
+{{ staffer }}
+{% endfor %}
+{% endif %}
+
+# About
+{:.no_toc}
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
