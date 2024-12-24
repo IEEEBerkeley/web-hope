@@ -1,11 +1,9 @@
 ---
-name: Kevin Lin
+name: Sample Guy with All Fields Enabled
 role: Instructor
-email: me@example.com
-website: https://kevinl.info
+email: sampleguy@berkeley.edu
+website: https://ieee.berkeley.edu/
 photo: kevin.jpg
 meta:
-  Office Hours: Somewhere on the internet
+  Office Hours: probably a link here idk
 ---
-
-[Schedule an appointment](#){: .btn .btn-outline }
