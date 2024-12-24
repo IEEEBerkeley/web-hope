@@ -2,7 +2,8 @@
 name: Evil Kevin
 role: Instructor
 email: me@example.com
+website: https://kevinl.info
 photo: kevin.jpg
 ---
 
-I love teaching!
+I like teaching Computer Science!
