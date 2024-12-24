@@ -29,10 +29,6 @@ We offer HOPE as an in-person class this semester. We plan to hold two identical
 
 HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EE 16A or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. PHYSICS 7B, BIOE 105).
 
-### Project Showcase
-
-[Spring 2024 Showcase](https://sites.google.com/berkeley.edu/hope-sp24/?ref=ieee.berkeley.edu)
-
 ## Course Schedule
 
 TBD
@@ -63,6 +59,9 @@ Please email us at [ieee-hope@lists.berkeley.edu](ieee-hope@lists.berkeley.edu)
 
 [HOPE Forms Master Page](https://ieee.berkeley.edu/hopeforms/)
 
+### Project Showcases
+
+[Spring 2024 Showcase](https://sites.google.com/berkeley.edu/hope-sp24/?ref=ieee.berkeley.edu)
 
 ## Staff
 
