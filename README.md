@@ -9,6 +9,7 @@ seo:
 ---
 
 # Hands-On PCB Engineering (HOPE)
+{:.no_toc}
 
 ## Course Info
 
@@ -84,9 +85,6 @@ Staff information is stored in the `_staffers` directory and rendered according 
 {{ staffer }}
 {% endfor %}
 {% endif %}
-
-## About
-{:.no_toc}
 
 ## Table of contents
 {: .no_toc .text-delta }
