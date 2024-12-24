@@ -7,3 +7,5 @@ photo: kevin.jpg
 meta:
   Office Hours: probably a link here idk
 ---
+
+I like teaching Computer Science!
