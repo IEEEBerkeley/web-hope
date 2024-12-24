@@ -14,6 +14,8 @@ seo:
 
 Through HOPE, you will learn effective printed circuit board (PCB) design and develop the skills to build custom electronics for classes, personal projects, student teams, and more. You will learn effective system, schematic, and layout design for PCBs through hands-on labs and experience basic PCB assembly and bringup. You will also be exposed to some advanced PCB design topics such as DFx, signal and power integrity, grounding, and thermals. At the end of the semester, you will combine all of your skills in a student design project.
 
+### test test test
+
 ## Enrolling in HOPE
 
 Students who are interested in signing up for HOPE in Spring 2025 should fill out [THIS](https://example.com) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Fall '24 was [https://decal.berkeley.edu/courses/7583](https://decal.berkeley.edu/courses/7583).
