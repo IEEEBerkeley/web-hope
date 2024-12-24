@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: fullwidth
 title: Hands-On PCB Engineering (HOPE)
 nav_exclude: true
 permalink: /:path/

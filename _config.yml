@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
+title: Hands-On PCB Engineering (HOPE)
+tagline: Berkeley Hands-On PCB Engineering
+description: Course that teaches you a lot about stuff
 author: Kaelan Yim
 # baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://vitamoon.github.io/berkieee' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://vitamoon.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
@@ -28,8 +28,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kaelan Yim:
-    - 'https://github.com/vitamoon'
+  Berkeley IEEE:
+    - 'https://ieee.berkeley.edu'
 footer_content:
 
 # Collections for website data
