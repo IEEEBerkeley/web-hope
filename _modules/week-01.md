@@ -3,13 +3,12 @@ title: Introduction to Java
 ---
 
 Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+week 9/3 to 9/4
+: [Java & Git](#) : [1.1](#)
 : [Java & Git](#)
   : [1.1](#)
     : [1.3](#)
       : [1.5](#)
-        :
 : [Java & Git](#)
 : [Java & Git](#)
   : [1.1](#)
