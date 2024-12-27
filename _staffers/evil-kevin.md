@@ -1,8 +1,0 @@
----
-name: Evil Kevin
-role: Instructor
-email: me@example.com
-photo: kevin.jpg
----
-
-I love teaching!
