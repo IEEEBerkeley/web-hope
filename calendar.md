@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Calendar
-nav_exclude: true
+nav_exclude: false
 description: Listing of course modules and topics.
 ---
 
 # Calendar
 
-{% for module in site.modules %}
-{{ module }}
-{% endfor %}
+<!-- INSERT GOOGLE CALENDAR HERE -->
