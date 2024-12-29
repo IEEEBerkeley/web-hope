@@ -5,7 +5,7 @@ nav_exclude: false
 description: Course Info
 ---
 
-## Course Info
+# Course Info
 
 Through HOPE, you will learn effective printed circuit board (PCB) design and develop the skills to build custom electronics for classes, personal projects, student teams, and more. You will learn effective system, schematic, and layout design for PCBs through hands-on labs and experience basic PCB assembly and bringup. You will also be exposed to some advanced PCB design topics such as DFx, signal and power integrity, grounding, and thermals. At the end of the semester, you will combine all of your skills in a student design project.
 
