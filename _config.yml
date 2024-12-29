@@ -28,6 +28,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  "Dark Mode":
+    - "#"
   Berkeley IEEE:
     - 'https://ieee.berkeley.edu'
 footer_content:
