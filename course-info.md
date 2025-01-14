@@ -11,17 +11,17 @@ Through HOPE, you will learn effective printed circuit board (PCB) design and de
 
 ### Enrolling in HOPE
 
-Students who are interested in signing up for HOPE in Spring 2025 should fill out [THIS](https://example.com) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Fall '24 was [https://decal.berkeley.edu/courses/7583](https://decal.berkeley.edu/courses/7583).
+Students who are interested in signing up for HOPE in Spring 2025 should fill out [THIS](https://berkie.ee/hope-sp25-apply) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Fall '24 was [https://decal.berkeley.edu/courses/7583](https://decal.berkeley.edu/courses/7583).
 
 Please email us if you are a concurrent enrollment student- we prioritize matriculated UC Berkeley students. Space permitting, however, concurrent enrollment students are welcome to take HOPE.
 
-Classes begin week of DATE GO HERE.
+Classes begin week of 1/26.
 
-We offer HOPE as an in-person class this semester. We plan to hold two identical sections of class each week (Tues and Wed), and you can choose which section to enroll in.
+We offer HOPE as an in-person class this semester. We plan to hold two identical sections of class each week (Wed and Thurs), and you can choose which section to enroll in.
 
 ### Prerequisites
 
-HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EE 16A or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. PHYSICS 7B, BIOE 105).
+HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EE 16B or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. PHYSICS 7B, BIOE 105).
 
 
 ## Grading
@@ -36,16 +36,8 @@ For students that need extra support time, we will hold staff office hours at th
 
 ### Contact
 
-Please email us at [ieee-hope@lists.berkeley.edu](ieee-hope@lists.berkeley.edu)
-
-## Resources
-
-[Design Reference Doc](https://docs.google.com/document/d/1sA1MmZkygvkN0kvH0_EiXm4IRMi5ilCOcb7CaAVOmxY/edit?usp=sharing&ref=ieee.berkeley.edu)
-
-[Checkoff Queue](https://forms.gle/oktJrU6brcofPdiM8?ref=ieee.berkeley.edu)
-
-[HOPE Forms Master Page](https://ieee.berkeley.edu/hopeforms/)
+Please email us at [hope@ieee.berkeley.edu](hope@ieee.berkeley.edu)
 
 ### Project Showcases
 
-[Spring 2024 Showcase](https://sites.google.com/berkeley.edu/hope-sp24/?ref=ieee.berkeley.edu)
+[Fall 2024 Showcase](https://sites.google.com/berkeley.edu/hope-fall-24-showcasesp24)
