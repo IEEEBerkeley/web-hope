@@ -11,7 +11,8 @@ seo:
 # Hands-On PCB Engineering (HOPE)
 {:.no_toc}
 
-**Lecture:** 8-10PM WTh, Cory 125
+**Lecture:** 8-10PM TuTh, Cory 125\
+[Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
@@ -329,7 +330,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>14</strong> <br> 
-        12/13
+        5/9
     </td>
     <td style="text-align: left;">
         <b>Final Project Showcase</b>
