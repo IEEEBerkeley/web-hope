@@ -11,7 +11,7 @@ seo:
 # Hands-On PCB Engineering (HOPE)
 {:.no_toc}
 
-**Instructors:** xyz xyz / **Lecture:** 8-10PM TuTh, Cory 125
+**Lecture:** 8-10PM WTh, Cory 125
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
@@ -24,7 +24,7 @@ seo:
     </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>1</strong> <br> 
-        9/3<br>9/4
+        1/29<br>1/30
     </td>
     
     <td style="text-align: left;">
@@ -63,7 +63,7 @@ seo:
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>2</strong> <br> 
-        9/10<br>9/11
+        2/5<br>2/6
     </td>
     <td style="text-align: left;">
         <b>Footprints and Layout</b><br><br>
@@ -90,7 +90,7 @@ seo:
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>3</strong> <br> 
-        9/17<br>9/18
+        2/12<br>2/13
     </td>
     <td style="text-align: left;">
                <b>Understanding Components</b><br><br>
@@ -113,7 +113,7 @@ seo:
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>4</strong> <br> 
-        9/24<br>9/25
+        2/19<br>2/20
     </td>
     <td style="text-align: left;">
         <b>PCB Requirements</b><br><br>
@@ -133,12 +133,12 @@ seo:
         USB Charger Components
     </td>
     <td>
-        <a href="https://forms.gle/LzHeeZHy7nEBGzLN6?ref=ieee.berkeley.edu">Groups Due 9/26</a> <br>(3 people minimum)<br>
+        <a href="https://forms.gle/LzHeeZHy7nEBGzLN6?ref=ieee.berkeley.edu">Groups Due 2/21</a> <br>(2 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>5</strong> <br> 
-        10/1<br>10/2
+        2/26<br>2/27
     </td>
     <td style="text-align: left;">
         <b>Microcontroller Basics</b><br><br>
@@ -156,12 +156,12 @@ seo:
         USB Charger Schematic
     </td>
     <td>
-<a href="http://berkie.ee/hope-fa24-project-proposal?ref=ieee.berkeley.edu">Proposal Due 10/4</a> 
+<a href="http://berkie.ee/hope-fa24-project-proposal?ref=ieee.berkeley.edu">Proposal Due 2/28</a> 
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>6</strong> <br> 
-        10/8<br>10/9
+        3/5<br>3/6
     </td>
     <td style="text-align: left; line-height: 30px;">
         <b>Assembly and Soldering</b><br><br>
@@ -185,7 +185,7 @@ seo:
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="border-right: 1px solid; text-align:center;">
         <strong>7</strong> <br> 
-        10/15<br>10/16
+        3/12<br>3/13
     </td>
     <td style="text-align: left;">
         <strong>USB Hands-On Experience</strong><br><br>
@@ -199,12 +199,12 @@ seo:
     <td>
     </td>
     <td>
-        Project BOM &amp; Schematic Due 10/18
+        Project BOM &amp; Schematic Due 3/14
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>8</strong> <br> 
-        10/22<br>10/23
+        3/19<br>3/20
     </td>
     <td style="text-align: left;">
         <b>Advanced Layout and Passives</b><br><br>
@@ -224,7 +224,7 @@ seo:
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>9</strong> <br> 
-        10/29<br>10/30
+        4/2<br>4/3
     </td>
     <td style="text-align: left;">
         <b>Project Design Review</b>
@@ -238,12 +238,12 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td>
-        Layout Due 11/1
+        Layout Due 4/4
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>10</strong> <br> 
-        11/5<br>11/6
+        4/9<br>4/10
     </td>
     <td style="text-align: left;">
         <b>Ordering, Testing, and Bringup</b><br><br>
@@ -260,12 +260,12 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td>
-        <strong>FINAL PCB files due 11/7 (Thursday)</strong>
+        <strong>FINAL PCB files due 4/10 (Thursday)</strong>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="border-right: 1px solid; text-align:center;">
         <strong>11</strong> <br> 
-        11/12<br>11/13
+        4/16<br>4/17
     </td>
     <td style="text-align: left;">
         <b>PCB Manufacturing</b><br><br>
@@ -290,7 +290,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>12</strong> <br> 
-        11/19<br>11/20
+        4/23<br>4/24
     </td>
     <td style="text-align: left;">
         <strong>Trinket Hands-On Lab</strong><br><br>
@@ -313,7 +313,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td class="week">
         <strong>13</strong> <br> 
-        12/3<br>12/4
+        4/30<br>5/1
     </td>
     <td style="text-align: left;">
         <b>Guest Lecture</b>
