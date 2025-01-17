@@ -12,7 +12,7 @@ seo:
 {:.no_toc}
 
 **Lecture:** 8-10PM TuTh, Cory 125\
-[Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)
+[Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff){:target="_blank"}
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
@@ -23,9 +23,10 @@ seo:
       <th style="width: 15%;">Lab Checkoff Due</th>
       <th style="width: 15%;">Project Checkpoint</th>
     </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
-        <strong>1</strong> <br> 
-        1/29<br>1/30
+    <td style="text-align:center;">
+        <strong>1</strong> <br>
+        1/29<br>1/30 <br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     
     <td style="text-align: left;">
@@ -62,9 +63,10 @@ seo:
     </td>
     
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>2</strong> <br> 
-        2/5<br>2/6
+        2/5<br>2/6 <br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Footprints and Layout</b><br><br>
@@ -89,7 +91,7 @@ seo:
         
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>3</strong> <br> 
         2/12<br>2/13
     </td>
@@ -112,7 +114,7 @@ seo:
     <td>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>4</strong> <br> 
         2/19<br>2/20
     </td>
@@ -137,7 +139,7 @@ seo:
         <a href="https://forms.gle/LzHeeZHy7nEBGzLN6?ref=ieee.berkeley.edu">Groups Due 2/21</a> <br>(2 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>5</strong> <br> 
         2/26<br>2/27
     </td>
@@ -160,7 +162,7 @@ seo:
 <a href="http://berkie.ee/hope-fa24-project-proposal?ref=ieee.berkeley.edu">Proposal Due 2/28</a> 
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>6</strong> <br> 
         3/5<br>3/6
     </td>
@@ -184,7 +186,7 @@ seo:
         Proposal Review
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td style="border-right: 1px solid; text-align:center;">
+    <td style="text-align:center;">
         <strong>7</strong> <br> 
         3/12<br>3/13
     </td>
@@ -203,7 +205,7 @@ seo:
         Project BOM &amp; Schematic Due 3/14
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>8</strong> <br> 
         3/19<br>3/20
     </td>
@@ -223,7 +225,7 @@ seo:
         Project Work Session
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>9</strong> <br> 
         4/2<br>4/3
     </td>
@@ -242,7 +244,7 @@ Project Design Review in Class<br>
         Layout Due 4/4
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>10</strong> <br> 
         4/9<br>4/10
     </td>
@@ -264,7 +266,7 @@ Project Design Review in Class<br>
         <strong>FINAL PCB files due 4/10 (Thursday)</strong>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td style="border-right: 1px solid; text-align:center;">
+    <td style="text-align:center;">
         <strong>11</strong> <br> 
         4/16<br>4/17
     </td>
@@ -289,7 +291,7 @@ Project Design Review in Class<br>
         
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>12</strong> <br> 
         4/23<br>4/24
     </td>
@@ -312,7 +314,7 @@ Project Design Review in Class<br>
         Project Assembly
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>13</strong> <br> 
         4/30<br>5/1
     </td>
@@ -328,7 +330,7 @@ Project Design Review in Class<br>
     <td>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>14</strong> <br> 
         5/9
     </td>
