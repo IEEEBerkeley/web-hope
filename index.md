@@ -12,7 +12,7 @@ seo:
 {:.no_toc}
 
 **Lecture:** 8-10PM TuTh, Cory 125\
-[Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff){:target="_blank"}
+[Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
@@ -22,11 +22,11 @@ seo:
       <th style="width: 15%;">Lab</th>
       <th style="width: 15%;">Lab Checkoff Due</th>
       <th style="width: 15%;">Project Checkpoint</th>
-    </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
+</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>1</strong> <br>
         1/29<br>1/30 <br>
-        <a href="attendance_form"><i>(Attendance)</i></a>
+        <a href="attendance_form"><i>(Attendance Form)</i></a>
     </td>
     
     <td style="text-align: left;">
@@ -46,7 +46,7 @@ seo:
     </td>
     
     <td class="lab">
- 
+            <a href="https://berkie.ee/hope-sp25-checkoff"><i>(Lab Checkoff Form)</i></a> <br>
             <a href="https://ieee.berkeley.edu/hope-kicad-install/"> Install KiCad</a><br><br>
             <a href="{{ site.baseurl }}/labs/lab0">Light Sensor Schematic</a>
         
@@ -80,8 +80,11 @@ seo:
         </ul>
     </td>
     <td class="lab"> 
-        <a href="https://ieee.berkeley.edu/hope-light-sensor-digikey-search/">Light Sensor Components</a><br><br>
-        <a href="https://ieee.berkeley.edu/hope-lab-2-layout/"> Light Sensor Layout</a>
+        <a href="https://berkie.ee/hope-sp25-checkoff"><i>(Lab Checkoff Form)</i></a> <br>
+        <!-- <a href="https://ieee.berkeley.edu/hope-light-sensor-digikey-search/">Light Sensor Components</a><br><br> -->
+        <!-- <a href="https://ieee.berkeley.edu/hope-lab-2-layout/"> Light Sensor Layout</a> -->
+        <a href="{{ site.baseurl }}/labs/lab1a">Light Sensor Components</a> <br>
+        <a href="{{ site.baseurl }}/labs/lab1b">Light Sensor Layout</a>
     </td>
     	
     <td>
