@@ -48,7 +48,7 @@ seo:
     <td class="lab">
  
             <a href="https://ieee.berkeley.edu/hope-kicad-install/"> Install KiCad</a><br><br>
-            <a href="https://ieee.berkeley.edu/hope-lab-1-light/">Light Sensor Schematic</a>
+            <a href="{{ site.baseurl }}/labs/lab0">Light Sensor Schematic</a>
         
     </td>
 
