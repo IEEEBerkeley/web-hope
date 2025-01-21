@@ -22,17 +22,16 @@ seo:
       <th style="width: 15%;">Lab</th>
       <th style="width: 15%;">Lab Checkoff Due</th>
       <th style="width: 15%;">Project Checkpoint</th>
-    </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
-        <strong>1</strong> <br> 
-        1/29<br>1/30
+</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
+    <td style="text-align:center;">
+        <strong>1</strong> <br>
+        1/29<br>1/30 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
-    
     <td style="text-align: left;">
         <b>Intro to PCB and Schematics</b><br><br>
         Intro to the class, PCBs, KiCad, and using KiCad's schematic editor.
     </td>
-    
     <td>
         <ul>
         	<li><a href="https://docs.google.com/presentation/d/1_WpjAtmyzuS9GUMBTAqdr_m3CKrjq7B2jTPNEdKDj6Q/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a>
@@ -43,14 +42,12 @@ seo:
             </li> 
         </ul>
     </td>
-    
     <td class="lab">
- 
-            <a href="https://ieee.berkeley.edu/hope-kicad-install/"> Install KiCad</a><br><br>
-            <a href="https://ieee.berkeley.edu/hope-lab-1-light/">Light Sensor Schematic</a>
-        
+            <a href="{{ site.baseurl }}/labs/kicad_install">Install KiCad</a> <br><br>
+            <!-- <a href="https://ieee.berkeley.edu/hope-kicad-install/"> Install KiCad</a><br><br> -->
+            <a href="{{ site.baseurl }}/labs/lab1">Light Sensor Schematic</a> <br><br>
+            <a href="https://berkie.ee/hope-sp25-checkoff"><i>(Lab Checkoff Form)</i></a>
     </td>
-
     <td>
         Intro to HOPE Quiz - Bcourses
     </td>
@@ -62,9 +59,10 @@ seo:
     </td>
     
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>2</strong> <br> 
-        2/5<br>2/6
+        2/5<br>2/6 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Footprints and Layout</b><br><br>
@@ -78,8 +76,9 @@ seo:
         </ul>
     </td>
     <td class="lab"> 
-        <a href="https://ieee.berkeley.edu/hope-light-sensor-digikey-search/">Light Sensor Components</a><br><br>
-        <a href="https://ieee.berkeley.edu/hope-lab-2-layout/"> Light Sensor Layout</a>
+        <a href="{{ site.baseurl }}/labs/lab2a">Light Sensor Components</a> <br><br>
+        <a href="{{ site.baseurl }}/labs/lab2b">Light Sensor Layout</a> <br><br>
+            <a href="https://berkie.ee/hope-sp25-checkoff"><i>(Lab Checkoff Form)</i></a>
     </td>
     	
     <td>
@@ -89,9 +88,10 @@ seo:
         
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>3</strong> <br> 
-        2/12<br>2/13
+        2/12<br>2/13 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
                <b>Understanding Components</b><br><br>
@@ -112,9 +112,10 @@ seo:
     <td>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>4</strong> <br> 
-        2/19<br>2/20
+        2/19<br>2/20 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>PCB Requirements</b><br><br>
@@ -137,9 +138,10 @@ seo:
         <a href="https://forms.gle/LzHeeZHy7nEBGzLN6?ref=ieee.berkeley.edu">Groups Due 2/21</a> <br>(2 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>5</strong> <br> 
-        2/26<br>2/27
+        2/26<br>2/27 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Microcontroller Basics</b><br><br>
@@ -160,9 +162,10 @@ seo:
 <a href="http://berkie.ee/hope-fa24-project-proposal?ref=ieee.berkeley.edu">Proposal Due 2/28</a> 
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>6</strong> <br> 
-        3/5<br>3/6
+        3/5<br>3/6 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left; line-height: 30px;">
         <b>Assembly and Soldering</b><br><br>
@@ -184,9 +187,10 @@ seo:
         Proposal Review
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td style="border-right: 1px solid; text-align:center;">
+    <td style="text-align:center;">
         <strong>7</strong> <br> 
-        3/12<br>3/13
+        3/12<br>3/13 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <strong>USB Hands-On Experience</strong><br><br>
@@ -203,9 +207,10 @@ seo:
         Project BOM &amp; Schematic Due 3/14
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>8</strong> <br> 
-        3/19<br>3/20
+        3/19<br>3/20 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Advanced Layout and Passives</b><br><br>
@@ -223,9 +228,10 @@ seo:
         Project Work Session
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>9</strong> <br> 
-        4/2<br>4/3
+        4/2<br>4/3 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Project Design Review</b>
@@ -242,9 +248,10 @@ Project Design Review in Class<br>
         Layout Due 4/4
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>10</strong> <br> 
-        4/9<br>4/10
+        4/9<br>4/10 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Ordering, Testing, and Bringup</b><br><br>
@@ -264,9 +271,10 @@ Project Design Review in Class<br>
         <strong>FINAL PCB files due 4/10 (Thursday)</strong>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td style="border-right: 1px solid; text-align:center;">
+    <td style="text-align:center;">
         <strong>11</strong> <br> 
-        4/16<br>4/17
+        4/16<br>4/17 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>PCB Manufacturing</b><br><br>
@@ -289,9 +297,10 @@ Project Design Review in Class<br>
         
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>12</strong> <br> 
-        4/23<br>4/24
+        4/23<br>4/24 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <strong>Trinket Hands-On Lab</strong><br><br>
@@ -312,9 +321,10 @@ Project Design Review in Class<br>
         Project Assembly
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>13</strong> <br> 
-        4/30<br>5/1
+        4/30<br>5/1 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Guest Lecture</b>
@@ -328,9 +338,10 @@ Project Design Review in Class<br>
     <td>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td class="week">
+    <td style="text-align:center;">
         <strong>14</strong> <br> 
-        5/9
+        5/9 <br><br>
+        <a href="attendance_form"><i>(Attendance)</i></a>
     </td>
     <td style="text-align: left;">
         <b>Final Project Showcase</b>
