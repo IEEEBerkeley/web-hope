@@ -31,7 +31,7 @@ Download the KiCad 8.0 installer from the official website: [https://www.kicad.o
 Open the `.dmg` file, and drag the KiCad folder into Applications.  You may also want to save the demos folder somewhere, but this is not required.
 
 ### Homebrew
-Run the command found here: [https://formulae.brew.sh/cask/kicad]
+Run the command found here: [https://formulae.brew.sh/cask/kicad](https://formulae.brew.sh/cask/kicad)
 
 ## Linux
 **Note that instructor support is not guaranteed for Linux troubleshooting**
@@ -42,7 +42,7 @@ Download the KiCad 8.0 installer from the official website: [https://www.kicad.o
 Installation process varies by distro.
 
 ### Package Manager
-List of KiCad names by distro and corresponding package manager: [https://repology.org/project/kicad/versions]
+List of KiCad names by distro and corresponding package manager: [https://repology.org/project/kicad/versions](https://repology.org/project/kicad/versions)
 
 # Running KiCad for the first time:
 Open KiCad however you would typically open an app.  KiCad has this icon:
