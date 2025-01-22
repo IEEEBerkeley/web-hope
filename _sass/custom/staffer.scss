@@ -1,12 +1,21 @@
 .staffer {
   display: flex;
+//   flex-wrap: wrap;
   margin: $sp-4 0;
 
   .staffer-image {
-    border-radius: 50%;
+    border-radius: 20%;
+    height: 100px;
+    // margin-right: $sp-4;
+    width: auto;
+  }
+
+  .staffer-image-container {
+    width: 100px;
     height: 100px;
     margin-right: $sp-4;
-    width: auto;
+    display: flex;
+    justify-content: center;
   }
 
   .anchor-heading {

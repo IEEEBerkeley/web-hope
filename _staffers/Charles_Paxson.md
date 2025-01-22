@@ -4,4 +4,4 @@ role: Instructor
 photo: charles_paxson.webp
 ---
 
-I love teaching!
+5th Year Master MechEng

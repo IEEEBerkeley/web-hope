@@ -7,22 +7,22 @@ description: A listing of all the course staff members.
 
 # Staff
 
-## Instructors
 
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-{% for staffer in instructors %}
-{{ staffer }}
-{% endfor %}
+<div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    width: 100%
+">
+    {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+    {% for staffer in instructors %}
+    {{ staffer }}
+    {% endfor %}
+    
+</div>
 
-{% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
-{% assign num_teaching_assistants = teaching_assistants | size %}
-{% if num_teaching_assistants != 0 %}
-## Teaching Assistants
+<!-- ## Instructors -->
 
-{% for staffer in teaching_assistants %}
-{{ staffer }}
-{% endfor %}
-{% endif %}
+
 
 ## Office Hours
 
