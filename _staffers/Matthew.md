@@ -1,7 +1,7 @@
 ---
 name: Matthew Sulistijowadi
 role: Instructor
-photo: matt.jpeg
+photo: matthew_sulistijowadi.jpeg
 ---
 
 I love teaching!
