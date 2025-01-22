@@ -4,4 +4,4 @@ role: Instructor
 photo: rick_huang.webp
 ---
 
-I love teaching!
+no_bio

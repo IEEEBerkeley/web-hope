@@ -4,4 +4,4 @@ role: Instructor
 photo: ailsa_sun.webp
 ---
 
-I love teaching!
+no_bio

@@ -4,4 +4,4 @@ role: Instructor
 photo: conor_van_bibber.webp
 ---
 
-I love teaching!
+no_bio

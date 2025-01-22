@@ -10,7 +10,7 @@ description: A listing of all the course staff members.
 
 <div style="
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
     width: 100%
 ">
     {% assign instructors = site.staffers | where: 'role', 'Instructor' %}

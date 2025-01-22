@@ -1,7 +1,7 @@
 ---
 name: Anthony Miceli
 role: Instructor
-photo: anthony_miceli.webp
+photo: anthony_miceli.jpg
 ---
 
-I love teaching!
+2nd year EECS

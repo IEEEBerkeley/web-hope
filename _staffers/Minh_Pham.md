@@ -4,4 +4,4 @@ role: Instructor
 photo: minh_pham.webp
 ---
 
-I love teaching!
+no_bio

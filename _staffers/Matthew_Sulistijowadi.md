@@ -4,4 +4,6 @@ role: Instructor
 photo: matthew_sulistijowadi.jpeg
 ---
 
-I love teaching!
+EECS UG Last Sem,\
+love Robots and food,\
+*noodle cravings rise*

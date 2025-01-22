@@ -4,4 +4,4 @@ role: Instructor
 photo: naichen_zhao.webp
 ---
 
-I love teaching!
+I hate Altera!

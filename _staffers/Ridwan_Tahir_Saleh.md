@@ -1,7 +1,7 @@
 ---
 name: Ridwan Tahir Saleh
 role: Instructor
-photo: ridwan_tahir_saleh.webp
+photo: ridwan_saleh.jpg
 ---
 
-I love teaching!
+no_bio

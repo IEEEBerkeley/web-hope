@@ -4,4 +4,4 @@ role: Instructor
 photo: matthew_song.webp
 ---
 
-I love teaching!
+no_bio

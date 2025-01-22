@@ -4,4 +4,4 @@ role: Instructor
 photo: zeel_aniruddhbhai_bhayani.webp
 ---
 
-I love teaching!
+no_bio
