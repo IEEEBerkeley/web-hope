@@ -1,7 +1,7 @@
 ---
 name: Ailsa Sun
 role: Instructor
-photo: ailsa_sun.webp
+photo: ailsa_sun.jpg
 ---
 
-no_bio
+Live Laugh Love & Eat Lithium

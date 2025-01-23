@@ -1,7 +1,7 @@
 ---
 name: Aarav Singh
 role: Instructor
-photo: aarav_singh.webp
+photo: aarav_singh.jpg
 ---
 
-no_bio
+2nd year EECS
