@@ -37,9 +37,9 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         <ul>
         	<li><a href="https://docs.google.com/presentation/d/1_WpjAtmyzuS9GUMBTAqdr_m3CKrjq7B2jTPNEdKDj6Q/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a>
             </li>
-            <li><a href="https://ieee.berkeley.edu/hope-intro/">Reading (Intro to PCBs)</a>
+            <li><a href="{{ site.baseurl }}/notes/note1">Reading (Intro to PCBs)</a>
             </li> 
-            <li><a href="https://ieee.berkeley.edu/hope-rd-schematics/">Reading (Schematics)</a>
+            <li><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a>
             </li> 
         </ul>
     </td>
@@ -52,40 +52,39 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         Intro to HOPE Quiz - Bcourses
     </td>
     <td>
-        <a href="https://docs.google.com/document/d/1smVeWLNiplKkxcA6GZ_3y53MKBoSkndNkYT-nEIYHTI/edit?ref=ieee.berkeley.edu">Project Logistics</a>
-        <br>
-        <br>
+        <a href="https://docs.google.com/document/d/1smVeWLNiplKkxcA6GZ_3y53MKBoSkndNkYT-nEIYHTI/edit?ref=ieee.berkeley.edu">Project Spec</a> <br><br>
         <a href="https://docs.google.com/spreadsheets/d/1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo/edit?usp=sharing&amp;ref=ieee.berkeley.edu"> BOM Template</a>
     </td>
-    
-</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td style="text-align:center;">
+</tr>
+
+<tr>
+    <td style="text-align:center;"> <!-- Week -->
         <strong>2</strong> <br> 
         2/5<br>2/6
     </td>
-    <td style="text-align: left;">
+    <td style="text-align: left;"> <!-- Topic -->
         <b>Footprints and Layout</b><br><br>
         Schematics to physical layout. Footprints, basic placement, and routing. 
     </td>
-    <td>
+    <td> <!-- Reference -->
         <ul>
             <li>
         <a href="https://docs.google.com/presentation/d/1ZEYT3n4YUe5rT5fIwE1vpuHBZgOFiZS5qvi10xDh4Ac/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a> </li>
-            <li><a href="https://ieee.berkeley.edu/hope-rd-schematics/">Reading (Schematics)</a></li>
+            <li><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a></li>
         </ul>
     </td>
-    <td class="lab"> 
+    <td class="lab"> <!-- Lab -->
         <a href="{{ site.baseurl }}/labs/lab2a">Light Sensor Components</a> <br><br>
         <a href="{{ site.baseurl }}/labs/lab2b">Light Sensor Layout</a>
     </td>
-    	
-    <td>
+    <td> <!-- Lab Checkoff Due -->
         Light Sensor Schematic
     </td>
-    <td>
-        
+    <td> <!-- Project Checkpoint -->
     </td>
-</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
+</tr>
+
+<tr>
     <td style="text-align:center;">
         <strong>3</strong> <br> 
         2/12<br>2/13
@@ -169,7 +168,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     <td>
         <ul>
             <li><a href="https://docs.google.com/presentation/d/1UOW9OISqjNoI4p-HWpmuwn0rZM6dTMwDFNixltQbm-8/edit?ref=ieee.berkeley.edu">Slides</a></li>
-            <li><a href="https://ieee.berkeley.edu/footprint-creation/"> Creating Footprints </a></li>
+            <li><a href="{{ site.baseurl }}/notes/note3">Reading (Creating Footprints)</a></li>
         </ul>
     </td>
     <td class="lab">
@@ -232,7 +231,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td class="lab">
 Project Design Review in Class<br>
-        <a href="https://ieee.berkeley.edu/hope-project-logistics/">Design Review Requirements</a>
+        <a href="{{ site.baseurl }}/project-logistics">Design Review Requirements</a>
     </td>
     <td>
     </td>
