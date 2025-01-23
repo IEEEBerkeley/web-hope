@@ -54,7 +54,7 @@ We <em>highly</em> suggest watching <a href="https://youtu.be/ZHH4G_EWhm0?t=351&
 <blockquote>
 <p>We do not recommend remaking standard packages that already exist in the default footprint libraries KiCad provides.</p>
 </blockquote>
-<!--kg-card-end: markdown--><figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="/assets/note3/ZHH4G_EWhm0.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></figure><!--kg-card-begin: markdown--><h2 id="quickfootprintwalkthrough">Quick Footprint walkthrough</h2>
+<!--kg-card-end: markdown--><figure class="kg-card kg-embed-card"><iframe width="600" height="339" src="/assets/note3/ZHH4G_EWhm0.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></figure><!--kg-card-begin: markdown--><h2 id="quickfootprintwalkthrough">Quick Footprint walkthrough</h2>
 <p>Some important tidbits before you begin:</p>
 <ol>
 <li>Make correct use of the origin to make rotation and placement more intuitive.</li>

@@ -17,7 +17,7 @@ This page is a brief summary of the project logistics for the course.  Please re
 Refer to the bCourses "Grading Breakdown" for grading details.
 
 ## Project Groups *(Due 2/21/25 11:59pm)*
-We recommend you work in groups of 2-3 people.  Other group sizes may be allowed at instructor discretion.  If you are having trouble finding a group, fill out our group search form to be matched with other students: [Group Search Form](http://berkie.ee/hope-sp25-group-search).
+We recommend you work in groups of 3-4 people.  Other group sizes may be allowed at instructor discretion.  If you are having trouble finding a group, fill out our group search form to be matched with other students: [Group Search Form](http://berkie.ee/hope-sp25-group-search).
 
 Once you've formed your group, please fill out the following form: [Project Group Form](https://forms.gle/LzHeeZHy7nEBGzLN6).
 
@@ -33,11 +33,13 @@ Your project will need to demonstrate some feature from at least three of the fo
 
 | Category | Examples |
 | ------- | ------- |
-| *Compute* | Microcontroller, FPGA, discrete computation |
-| *Power* | Switching regulator, LDOs, battery management |
+| ***Compute*** | Microcontroller, FPGA, discrete computation |
+| ***Power*** | Switching regulator, LDOs, battery management |
 | *Sensing* | Digital (e.g. I2C, SPI), resistance, current, voltage, HID |
 | *Actuation* | Motors, servos, solenoids, lights, screens, sound, radio |
 | *Other* | Multiple boards, purposeful mechanical design, analog processing |
+
+By the nature of the project, the *Compute* and *Power* categories are required, so you just have to choose at least one from the remaining three categories.
 
 > Refer to slides from Weeks 1 and 3 for inspiration and ideas!
 

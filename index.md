@@ -52,7 +52,8 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         Intro to HOPE Quiz - Bcourses
     </td>
     <td>
-        <a href="https://docs.google.com/document/d/1smVeWLNiplKkxcA6GZ_3y53MKBoSkndNkYT-nEIYHTI/edit?ref=ieee.berkeley.edu">Project Spec</a> <br><br>
+        <a href="{{ site.baseurl }}/project-logistics">Project Logistics</a> <br><br>
+        <a href="https://docs.google.com/document/d/1smVeWLNiplKkxcA6GZ_3y53MKBoSkndNkYT-nEIYHTI/edit">Project Spec</a> <br><br>
         <a href="https://docs.google.com/spreadsheets/d/1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo/edit?usp=sharing&amp;ref=ieee.berkeley.edu"> BOM Template</a>
     </td>
 </tr>
@@ -130,7 +131,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         USB Charger Components
     </td>
     <td>
-        <a href="https://forms.gle/LzHeeZHy7nEBGzLN6?ref=ieee.berkeley.edu">Groups Due 2/21</a> <br>(2 people minimum)<br>
+        <a href="http://berkie.ee/hope-sp25-project-group-submission">Groups Due 2/21</a> <br>(2 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -154,7 +155,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         USB Charger Schematic
     </td>
     <td>
-<a href="http://berkie.ee/hope-fa24-project-proposal?ref=ieee.berkeley.edu">Proposal Due 2/28</a> 
+<a href="http://berkie.ee/hope-sp25-project-proposal-submission">Proposal Due 2/28</a> 
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -167,7 +168,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td>
         <ul>
-            <li><a href="https://docs.google.com/presentation/d/1UOW9OISqjNoI4p-HWpmuwn0rZM6dTMwDFNixltQbm-8/edit?ref=ieee.berkeley.edu">Slides</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1UOW9OISqjNoI4p-HWpmuwn0rZM6dTMwDFNixltQbm-8/edit">Slides</a></li>
             <li><a href="{{ site.baseurl }}/notes/note3">Reading (Creating Footprints)</a></li>
         </ul>
     </td>
@@ -192,7 +193,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     <td>
     </td>
     <td class="lab">
-        <a href="https://docs.google.com/presentation/d/10QwwdUPcAvdNy7LkakU-zVrh70OtulW7V5JNu-0g_cg/edit?ref=ieee.berkeley.edu#slide=id.gcb501ed038_0_0">USB Charger Hands-On Instructions</a><br>
+        <a href="https://docs.google.com/presentation/d/10QwwdUPcAvdNy7LkakU-zVrh70OtulW7V5JNu-0g_cg/edit#slide=id.gcb501ed038_0_0">USB Charger Hands-On Instructions</a><br>
     </td>
     <td>
     </td>
@@ -209,7 +210,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         General layout process and overview of concerns. Non-ideal passives. 
     </td>
     <td>
-        <ul><li><a href="https://docs.google.com/presentation/d/12JF1bfG0X4mbw5ZZFWQvI6EWk4TB9M_f-vcO1WBV-I8/edit?ref=ieee.berkeley.edu#slide=id.g11f980f9a13_1_191">Slides</a></li>
+        <ul><li><a href="https://docs.google.com/presentation/d/12JF1bfG0X4mbw5ZZFWQvI6EWk4TB9M_f-vcO1WBV-I8/edit#slide=id.g11f980f9a13_1_191">Slides</a></li>
         <li><!--<a href="https://ieee.berkeley.edu/hope-assembly/">Extra Videos</a>--> Extra Videos</li></ul>
     </td>
     <td class="lab">
@@ -249,7 +250,7 @@ Project Design Review in Class<br>
     </td>
     <td>
         <ul><li>
-        <a href="https://docs.google.com/presentation/d/1P7q-aZrW74vWJZ5W2cMZ2pb7XZuToVQ3T6C_J3QnbIw/edit?ref=ieee.berkeley.edu">Slides</a>
+        <a href="https://docs.google.com/presentation/d/1P7q-aZrW74vWJZ5W2cMZ2pb7XZuToVQ3T6C_J3QnbIw/edit">Slides</a>
 		</li></ul>
     </td>
     <td class="lab">
@@ -272,8 +273,9 @@ Project Design Review in Class<br>
     <td>
         <ul>
             <li><a href="https://docs.google.com/presentation/d/1gijMn5mIbhD0eUVxNSDjSfw6dI_Jonb3ylOAnf0B87k/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a></li>
-            <li><a href="https://ieee.berkeley.edu/hope-improving-your-layouts/">Reading (Layout Tips)</a></li>
-            <li><a href="https://ieee.berkeley.edu/hope-pcb-manufacturing/">Video</a></li>
+            <li><a href="{{ site.baseurl }}/notes/note4">Reading (Layout Tips)</a></li>
+            <li><a href="{{ site.baseurl }}/notes/note5">Videos (PCB Manufacturing)</a></li>
+            <!-- <li><a href="https://ieee.berkeley.edu/hope-pcb-manufacturing/">Video</a></li> -->
         </ul>
     </td>
     <td class="lab">
