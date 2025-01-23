@@ -55,7 +55,7 @@ If the first option is greyed out, please ask an instructor for assistance.
 
     > Interested in why the op-amps come as these separate units of one part? Take a look at page 18 of the [LMC6482's datasheet](http://www.ti.com/lit/ds/symlink/lmc6482.pdf) to get some idea of why the component would be set up this way. 
 
-    <img src="https://ieee.berkeley.edu/content/images/2021/09/schematic_add_component.gif" alt="Schematic Add Component Animated" style="width:100%; margin: auto; display:block">
+    <img src="/assets/lab1/schematic_add_component.gif" alt="Schematic Add Component Animated" style="width:100%; margin: auto; display:block">
 
     > Go to `Help -> List Hotkeys` or press `Ctrl+F1`/`⌘+F1` to open up KiCad's built-in keyboard shortcuts cheat sheet!
 
@@ -90,7 +90,7 @@ If the first option is greyed out, please ask an instructor for assistance.
 
 1.  Run the Electrical Rules Checker (ERC) and ensure there are no errors.  If there are, fix the listed errors in your schematic and run the ERC again, until it is error-free.
 
-    Click this icon to run the ERC: ![erc_icon](https://ieee.berkeley.edu/content/images/2021/09/erc_icon.png)
+    Click this icon to run the ERC: ![erc_icon](/assets/lab1/erc_icon.png)
 
 1.  Visually double-check your schematic to make sure it matches the reference schematic above. The ERC *does not check this for you*. 
 

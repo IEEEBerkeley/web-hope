@@ -9,11 +9,12 @@ seo:
 ---
 
 # Hands-On PCB Engineering (HOPE)
+
 {:.no_toc}
 
 **Lecture:** 8-10PM TuTh, Cory 125
 
-*[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)*
+_[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
@@ -93,14 +94,14 @@ seo:
                <b>Understanding Components</b><br><br>
         Real components to their symbol and footprint.
     </td>
-    	
     <td>
         <ul>
             <li><a href="https://docs.google.com/presentation/d/1O05Crc2QumDudakWkuBr-LM2nKU485MrZpWf1tg22tM/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a> </li>
         </ul>
     </td>
     <td class="lab">
-        <a href="https://ieee.berkeley.edu/usb-charger-components">USB Charger Components</a>
+        <a href="{{ site.baseurl }}/labs/lab3">USB Charger Components</a> <br><br>
+        <!-- <a href="https://ieee.berkeley.edu/usb-charger-components">USB Charger Components</a> -->
     </td>
     <td>
         Light Sensor Components+Layout
@@ -115,7 +116,6 @@ seo:
     <td style="text-align: left;">
         <b>PCB Requirements</b><br><br>
         Overview of the PCB design and manufacturing process, and how it relates to engineering requirements.
-        
     </td>
     <td>
         <ul>
@@ -124,7 +124,8 @@ seo:
         </ul>
     </td>
     <td class="lab">
-                <a href="https://ieee.berkeley.edu/usb-charger-part1/">USB Charger Schematic</a>
+        <a href="{{ site.baseurl }}/labs/lab4">USB Charger Schematic</a>
+        <!-- <a href="https://ieee.berkeley.edu/usb-charger-part1/">USB Charger Schematic</a> -->
     </td>
     <td>
         USB Charger Components
@@ -147,7 +148,8 @@ seo:
         </ul>
     </td>
     <td class="lab">
-        <a href="https://ieee.berkeley.edu/usb-charger-layout/">USB Charger Layout</a>
+        <a href="{{ site.baseurl }}/labs/lab5">USB Charger Layout</a>
+        <!-- <a href="https://ieee.berkeley.edu/usb-charger-layout/">USB Charger Layout</a> -->
     </td>
     <td>
         USB Charger Schematic
@@ -277,13 +279,13 @@ Project Design Review in Class<br>
     </td>
     <td class="lab">
 
-                
     </td>
     <td>
     </td>
     <td>
-        
+
     </td>
+
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>12</strong> <br> 
@@ -299,7 +301,8 @@ Project Design Review in Class<br>
 		</li></ul>
     </td>
     <td class="lab">
-	<a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a>
+        <a href="{{ site.baseurl }}/labs/lab8">Trinket Lab</a>
+	    <!-- <a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a> -->
     </td>
     <td>
         Trinket Prelab due
