@@ -31,11 +31,11 @@ For the purposes of this exercise, we'll only walk you through the Op-Amp, resis
 ## Op-Amp
 Let's start with the easiest item on the list: the part that already is picked out for you. The LMC6482 is the part number of a real component! In Digikey's search bar, search for 'LMC6482':
 
-<img src="/assets/lab2/digikey-home-page.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-home-page.png" style="border-radius: 1em">
 
 This should bring you to Digikey's search results:
 
-<img src="/assets/lab2/digikey-op-amp-search1.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-op-amp-search1.png" style="border-radius: 1em">
 
 Pay close attention to the structure of this annotated page:
 
@@ -48,19 +48,19 @@ We know we don't need an Integrated Circuit *Kit* (a box of assorted integrated 
 
 Once the search is refined down to a single category, Digikey will show this part filtering page:
 
-<img src="/assets/lab2/digikey-op-amp-search2.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-op-amp-search2.png" style="border-radius: 1em">
 
 We know this page might be a little intimidating, but it's structure is fairly simple.  At the top, you have filters in a horizontal table.  Below that, you have common filters, and below that, you have the list of parts that match all filters you apply.
 
 It turns out that there are a lot of LMC6482 ICs and a lot of them look basically the same!  Luckily for us, there are a couple of important factors we can use here to filter out most of these options, the first of which being whether or not the component is **actually in stock**!  Tick that under "Stocking Options" in the Filter Options below the filter list, then click "Apply All":
 
-<img src="/assets/lab2/digikey-common-filters.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-common-filters.png" style="border-radius: 1em">
 
 When searching for components, the other options can be very useful too!  In particular the "Marketplace Product" "Exclude" option removes all Marketplace products, which are items Digikey lists on their website, but are actually sold and fulfilled by another company.  We try to stay away from Marketplace products since they often have much longer lead times, and tend to make sense only for larger-scale projects.
 
 At the time of writing this lab guide, simply filtering for stock eliminates 11 of 23 results.  However, to further filter, we can use some of the options in the filter table:
 
-<img src="/assets/lab2/digikey-op-amp-search3.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-op-amp-search3.png" style="border-radius: 1em">
 
 In this case, we used "Product Status" and "Mounting Type" to narrow the search down to two parts, which turn out to be almost identical components, which for our use case we can finally just sort by price.
 
@@ -74,13 +74,13 @@ We'll want to note down somewhere what actual parts we've chosen to physically r
 ## Resistors
 If you thought there were a needless amount of versions of the LMC6482 IC, wait until you see how many different kinds of resistors there are:
 
-<img src="/assets/lab2/digikey-resistor-search1.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-resistor-search1.png" style="border-radius: 1em">
 
 In short, there are *tons*, so to speed things up we'll tell you exactly what you need to search for to find the reasonable resistors.  Let's take R1 and R2, our 10 kΩ resistors, for this search example.
 
 Narrow down the product list to the kind of resistors you are familiar with by going straight to the **Through Hole Resistors** product category:
 
-<img src="/assets/lab2/digikey-resistor-search2.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-resistor-search2.png" style="border-radius: 1em">
 
 We can then input these options:
 
@@ -90,11 +90,11 @@ We can then input these options:
 
 For good measure, let's also tick the "In Stock" filter before applying all the filters to our search.
 
-<img src="/assets/lab2/digikey-resistor-search3.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-resistor-search3.png" style="border-radius: 1em">
 
 The resulting list is much more reasonable, but let's add one more filter before selecting one.  If you've messed around with through-hole resistors enough, you'll have noticed that there's mostly 2 sizes for the standard 1/4W through-hole resistors, one smaller than the other.  Let's say we would like to use this smaller size for this light sensor board, and would like to ignore the larger ones.  Scroll to the right end of the filters and you'll find the "Size/Dimension" filters.  Select every option that is less than 2mm x 4mm, then click "Apply All" again.
 
-<img src="/assets/lab2/digikey-resistor-search4.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-resistor-search4.png" style="border-radius: 1em">
 
 At this point, all the remaining resistors match our electrical and physical requirements, so we can just pick the cheapest option, add it to cart, and call it a day.
 
@@ -103,7 +103,7 @@ For R3, you can use the same filters but with a resistance of 5.1 MΩ (note this
 ## Capacitors
 Searching for capacitors is very similar to searching for resistors.  First, limit your search to **Ceramic Capacitors**.
 
-<img src="/assets/lab2/digikey-capacitor-search1.png" style="border-radius: 1em">
+<img src="/assets/lab2a/digikey-capacitor-search1.png" style="border-radius: 1em">
 
 Then, use the following filters, just as you did for the resistors:
 
