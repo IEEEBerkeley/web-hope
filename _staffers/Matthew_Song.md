@@ -1,7 +1,8 @@
 ---
 name: Matthew Song
 role: Instructor
-photo: matthew_song.webp
+photo: matthew_song.png
 ---
 
-no_bio
+4th year EECS.\
+drones are awesome!

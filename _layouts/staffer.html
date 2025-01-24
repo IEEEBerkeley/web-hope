@@ -4,7 +4,7 @@
     <img class="staffer-image" src="{{ site.baseurl }}{{ page.subpath }}{{ page.photo }}" alt="" width="{{ page.width }}" height="{{ page.height }}">
   </div>
   {%- endif -%}
-  <div>
+  <div class="staffer-info">
     <h3 class="staffer-name" id="{{ page.name | slugify }}">
       {%- if page.website -%}
       <a href="{{ page.website }}">{{ page.name }}</a>

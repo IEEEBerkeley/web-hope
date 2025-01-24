@@ -4,4 +4,4 @@ role: Instructor
 photo: minh_pham.webp
 ---
 
-no_bio
+I like penguins

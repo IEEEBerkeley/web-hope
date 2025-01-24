@@ -4,4 +4,6 @@ role: Instructor
 photo: conor_van_bibber.webp
 ---
 
-no_bio
+4th Year MechEng,\
+Like to make PCBs and Mechanical systems,\
+nice to meet you!

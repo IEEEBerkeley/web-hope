@@ -4,4 +4,4 @@ role: Instructor
 photo: ridwan_saleh.jpg
 ---
 
-no_bio
+3rd year EECS :)
