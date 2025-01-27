@@ -1,7 +1,7 @@
 ---
 name: Stephen Terry
 role: Instructor
-photo: stephen_terry.webp
+photo: placeholder.svg
 ---
 
-no_bio
+<!-- no_bio -->

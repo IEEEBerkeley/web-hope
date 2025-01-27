@@ -1,7 +1,8 @@
 ---
 name: Sai Praneth Raju Kanchanapalli
 role: Instructor
-photo: sai_praneth_raju_kanchanapalli.webp
+photo: sai_praneth_raju_kanchanapalli.png
 ---
 
-no_bio
+2nd year Astrophysics.\
+Tennis, Chess, Cybersecurity

@@ -1,7 +1,7 @@
 ---
 name: Curtis Suero Manacsa
 role: Instructor
-photo: curtis_suero_manacsa.webp
+photo: curtis_suero_manacsa.png
 ---
 
-no_bio
+3rd year EECS!

@@ -1,7 +1,7 @@
 ---
 name: Minh Pham
 role: Instructor
-photo: minh_pham.webp
+photo: placeholder.svg
 ---
 
 I like penguins
