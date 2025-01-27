@@ -1,7 +1,7 @@
 ---
 name: Zeel Aniruddhbhai Bhayani
 role: Instructor
-photo: placeholder.svg
+photo: zeel_bhayani.jpg
 ---
 
 2nd year eecs, welcome!
