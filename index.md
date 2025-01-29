@@ -12,7 +12,7 @@ seo:
 
 {:.no_toc}
 
-**Lecture:** 8-10PM TuTh, Cory 125
+**Lecture:** 8-10PM WeTh, Cory 125
 
 _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_
 
@@ -131,7 +131,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         USB Charger Components
     </td>
     <td>
-        <a href="http://berkie.ee/hope-sp25-project-group-submission">Groups Due 2/21</a> <br>(2 people minimum)<br>
+        <a href="http://berkie.ee/hope-sp25-project-group-submission">Groups Due 2/21</a> <br>(3 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
