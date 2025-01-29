@@ -21,7 +21,7 @@ We offer HOPE as an in-person class this semester. We plan to hold two identical
 
 ### Prerequisites
 
-HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EE 16B or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. PHYSICS 7B, BIOE 105).
+HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EE 16B or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. BIOE 105).
 
 
 ## Grading
