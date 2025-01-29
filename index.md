@@ -279,9 +279,11 @@ Project Design Review in Class<br>
         </ul>
     </td>
     <td class="lab">
-
+        <a href="{{ site.baseurl }}/labs/lab8">Trinket Lab</a>
+	    <!-- <a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a> -->
     </td>
     <td>
+        Trinket Prelab due
     </td>
     <td>
 
@@ -302,11 +304,8 @@ Project Design Review in Class<br>
 		</li></ul>
     </td>
     <td class="lab">
-        <a href="{{ site.baseurl }}/labs/lab8">Trinket Lab</a>
-	    <!-- <a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a> -->
     </td>
     <td>
-        Trinket Prelab due
     </td>
     <td>
         Project Assembly

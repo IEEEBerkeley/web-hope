@@ -1,5 +1,5 @@
 ---
-name: Zeel Aniruddhbhai Bhayani
+name: Zeel Bhayani
 role: Instructor
 photo: zeel_bhayani.jpg
 ---
