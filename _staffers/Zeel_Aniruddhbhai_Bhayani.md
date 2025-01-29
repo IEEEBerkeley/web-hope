@@ -4,4 +4,4 @@ role: Instructor
 photo: zeel_bhayani.jpg
 ---
 
-2nd year eecs + physics, welcome!
+2nd year EECS + Physics, welcome!

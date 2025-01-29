@@ -1,7 +1,7 @@
 ---
 name: Stephen Terry
 role: Instructor
-photo: placeholder.svg
+photo: Stephen_Terry.jpg
 ---
 
-<!-- no_bio -->
+2nd year EECS, Formula Racing, I love pretty much every board sport 
