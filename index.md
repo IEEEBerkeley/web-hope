@@ -9,12 +9,29 @@ seo:
 ---
 
 # Hands-On PCB Engineering (HOPE)
+<!-- {:.no_toc} -->
 
-{:.no_toc}
+{%- if site.under_construction -%}
+<p class="warning">
+This site is under construction. All dates and policies are tentative until this message goes away.
+</p>
+{%- endif -%}
+
+{%- if site.waitlist_warning -%}
+<p class="warning">
+If you're currently on the waitlist, or have any other course-related logistics questions, please take a look at our <a href="{{ site.baseurl }}/policies/">Course Policies</a> prior to contacting course staff.
+</p>
+{%- endif -%}
+
+{%- if site.outdated -%}
+<p class="warning">
+This website contains materials from a past semester. Information, assignments, and announcements may no longer be relevant. Please refer to the <a href="https://template.cs161.org">current semester's site</a> for up-to-date content.
+</p>
+{%- endif -%}
 
 **Lecture:** 8-10PM WeTh, Cory 125
 
-_[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_
+<!-- _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_ -->
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
