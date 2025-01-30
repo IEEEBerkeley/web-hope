@@ -1,6 +1,6 @@
 # HOPE Website
 
-HOPE Website using the CS161 Template. Template originally developed by Peyrin. HOPE website developed + maintained by Berkeley IEEE Technical Operations Instructional Support & Infrastructure Group.
+HOPE Website using the [CS161 Template](https://template.cs161.org/). Template originally developed by Peyrin. HOPE website developed + maintained by Berkeley IEEE Technical Operations Instructional Support & Infrastructure Group.
 
 ## General Instructions
 
