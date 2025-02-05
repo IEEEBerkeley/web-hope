@@ -79,7 +79,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         <a href="{{ site.baseurl }}/labs/lab2b">Light Sensor Layout</a>
     </td>
     <td> <!-- Lab Checkoff Due -->
-        Light Sensor Schematic
+        Light Sensor Schematic <br> - Due 2/7
     </td>
     <td> <!-- Project Checkpoint -->
     </td>
@@ -104,7 +104,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-components">USB Charger Components</a> -->
     </td>
     <td>
-        Light Sensor Components+Layout
+        Light Sensor Components+Layout <br> - Due 2/14
     </td>
     <td>
     </td>
@@ -128,10 +128,12 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-part1/">USB Charger Schematic</a> -->
     </td>
     <td>
-        USB Charger Components
+        USB Charger Components <br> - Due 2/21
     </td>
     <td>
-        <a href="http://berkie.ee/hope-sp25-project-group-submission">Groups Due 2/21</a> <br>(3 people minimum)<br>
+        <a href="http://berkie.ee/hope-sp25-project-group-submission">Project Groups</a> 
+        <br> - Due 2/21
+        <br> - (3 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -152,10 +154,11 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-layout/">USB Charger Layout</a> -->
     </td>
     <td>
-        USB Charger Schematic
+        USB Charger Schematic <br> - Due 2/28
     </td>
     <td>
-<a href="http://berkie.ee/hope-sp25-project-proposal-submission">Proposal Due 2/28</a> 
+<a href="http://berkie.ee/hope-sp25-project-proposal-submission">Project Proposal</a>
+    <br> - Due 2/28
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -176,7 +179,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
 		Soldering Practice
     </td>
     <td>
-        USB Charger Layout
+        USB Charger Layout <br> - Due 3/7
     </td>
     <td>
         Proposal Review
@@ -196,9 +199,10 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         <a href="https://docs.google.com/presentation/d/10QwwdUPcAvdNy7LkakU-zVrh70OtulW7V5JNu-0g_cg/edit#slide=id.gcb501ed038_0_0">USB Charger Hands-On Instructions</a><br>
     </td>
     <td>
+        Hands on: Soldering <br> - Due 3/14
     </td>
     <td>
-        Project BOM &amp; Schematic Due 3/14
+        Project BOM &amp; Schematic <br> - Due 3/14
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -216,6 +220,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     <td class="lab">
     </td>
     <td>
+        Hands on: USB Charger <br> - Due 3/21
     </td>
     <td>
         Project Work Session
@@ -237,7 +242,7 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td>
-        Layout Due 4/4
+        Project Layout <br> - Due 4/4
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -259,7 +264,7 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td>
-        <strong>FINAL PCB files due 4/10 (Thursday)</strong>
+        <strong>FINAL PCB files <br> - Due 4/10 (Thursday)</strong>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -283,7 +288,7 @@ Project Design Review in Class<br>
 	    <!-- <a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a> -->
     </td>
     <td>
-        Trinket Prelab due
+        Trinket Prelab <br> - Due 4/25
     </td>
     <td>
 
