@@ -8,13 +8,30 @@ seo:
   name: Berkeley IEEE HOPE
 ---
 
-# Hands-On PCB Engineering (HOPE)
+# Hands-On PCB Engineering (HOPE) [Spring 2025]
+<!-- {:.no_toc} -->
 
-{:.no_toc}
+{%- if site.under_construction -%}
+<p class="warning">
+This site is under construction. All dates and policies are tentative until this message goes away.
+</p>
+{%- endif -%}
+
+{%- if site.waitlist_warning -%}
+<p class="warning">
+If you're currently on the waitlist, or have any other course-related logistics questions, please take a look at our <a href="{{ site.baseurl }}/policies/">Course Policies</a> prior to contacting course staff.
+</p>
+{%- endif -%}
+
+{%- if site.outdated -%}
+<p class="warning">
+This website contains materials from a past semester. Information, assignments, and announcements may no longer be relevant. Please refer to the <a href="https://template.cs161.org">current semester's site</a> for up-to-date content.
+</p>
+{%- endif -%}
 
 **Lecture:** 8-10PM WeTh, Cory 125
 
-_[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_
+<!-- _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_ -->
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
@@ -35,11 +52,11 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td>
         <ul>
-        	<li><a href="https://docs.google.com/presentation/d/1_WpjAtmyzuS9GUMBTAqdr_m3CKrjq7B2jTPNEdKDj6Q/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a>
+        	<li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1_WpjAtmyzuS9GUMBTAqdr_m3CKrjq7B2jTPNEdKDj6Q/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a>
             </li>
-            <li><a href="{{ site.baseurl }}/notes/note1">Reading (Intro to PCBs)</a>
+            <li style="margin-top: 10px;"><a href="{{ site.baseurl }}/notes/note1">Reading (Intro to PCBs)</a>
             </li> 
-            <li><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a>
+            <li style="margin-top: 10px;"><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a>
             </li> 
         </ul>
     </td>
@@ -69,9 +86,9 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td> <!-- Reference -->
         <ul>
-            <li>
+            <li style="margin: 15px 0px 15px 0px;">
         <a href="https://docs.google.com/presentation/d/1ZEYT3n4YUe5rT5fIwE1vpuHBZgOFiZS5qvi10xDh4Ac/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a> </li>
-            <li><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a></li>
         </ul>
     </td>
     <td class="lab"> <!-- Lab -->
@@ -96,7 +113,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td>
         <ul>
-            <li><a href="https://docs.google.com/presentation/d/1O05Crc2QumDudakWkuBr-LM2nKU485MrZpWf1tg22tM/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a> </li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1O05Crc2QumDudakWkuBr-LM2nKU485MrZpWf1tg22tM/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a> </li>
         </ul>
     </td>
     <td class="lab">
@@ -119,8 +136,8 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td>
         <ul>
-            <li><a href="https://docs.google.com/presentation/d/1szEkc9CNWQVS2_0T3ZBreltsSnQH1pim4ilX3dekydc/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a></li>
-            <li><a href="https://docs.google.com/presentation/d/1_LhTxAqtXAgTtaF7BMxn-zAdomglfNoVxemuDgUhpzw/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Symbol Creation Slides</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1szEkc9CNWQVS2_0T3ZBreltsSnQH1pim4ilX3dekydc/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1_LhTxAqtXAgTtaF7BMxn-zAdomglfNoVxemuDgUhpzw/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Symbol Creation Slides</a></li>
         </ul>
     </td>
     <td class="lab">
@@ -146,7 +163,7 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td>
          <ul>
-            <li><a href="https://docs.google.com/presentation/d/1CJfPpZ0wZff7xSfjeDne1GJ4E7e8GdqBduB-JG1Kv68/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1CJfPpZ0wZff7xSfjeDne1GJ4E7e8GdqBduB-JG1Kv68/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a></li>
         </ul>
     </td>
     <td class="lab">
@@ -171,8 +188,8 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
     </td>
     <td>
         <ul>
-            <li><a href="https://docs.google.com/presentation/d/1UOW9OISqjNoI4p-HWpmuwn0rZM6dTMwDFNixltQbm-8/edit">Slides</a></li>
-            <li><a href="{{ site.baseurl }}/notes/note3">Reading (Creating Footprints)</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1UOW9OISqjNoI4p-HWpmuwn0rZM6dTMwDFNixltQbm-8/edit">Slides</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="{{ site.baseurl }}/notes/note3">Reading (Creating Footprints)</a></li>
         </ul>
     </td>
     <td class="lab">
@@ -214,8 +231,8 @@ _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checko
         General layout process and overview of concerns. Non-ideal passives. 
     </td>
     <td>
-        <ul><li><a href="https://docs.google.com/presentation/d/12JF1bfG0X4mbw5ZZFWQvI6EWk4TB9M_f-vcO1WBV-I8/edit#slide=id.g11f980f9a13_1_191">Slides</a></li>
-        <li><!--<a href="https://ieee.berkeley.edu/hope-assembly/">Extra Videos</a>--> Extra Videos</li></ul>
+        <ul><li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/12JF1bfG0X4mbw5ZZFWQvI6EWk4TB9M_f-vcO1WBV-I8/edit#slide=id.g11f980f9a13_1_191">Slides</a></li>
+        <li style="margin: 15px 0px 15px 0px;"><!--<a href="https://ieee.berkeley.edu/hope-assembly/">Extra Videos</a>--> Extra Videos</li></ul>
     </td>
     <td class="lab">
     </td>
@@ -254,7 +271,7 @@ Project Design Review in Class<br>
         The last bits of what you need to get a working PCB. 
     </td>
     <td>
-        <ul><li>
+        <ul><li style="margin: 15px 0px 15px 0px;">
         <a href="https://docs.google.com/presentation/d/1P7q-aZrW74vWJZ5W2cMZ2pb7XZuToVQ3T6C_J3QnbIw/edit">Slides</a>
 		</li></ul>
     </td>
@@ -277,10 +294,10 @@ Project Design Review in Class<br>
     </td>
     <td>
         <ul>
-            <li><a href="https://docs.google.com/presentation/d/1gijMn5mIbhD0eUVxNSDjSfw6dI_Jonb3ylOAnf0B87k/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a></li>
-            <li><a href="{{ site.baseurl }}/notes/note4">Reading (Layout Tips)</a></li>
-            <li><a href="{{ site.baseurl }}/notes/note5">Videos (PCB Manufacturing)</a></li>
-            <!-- <li><a href="https://ieee.berkeley.edu/hope-pcb-manufacturing/">Video</a></li> -->
+            <li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1gijMn5mIbhD0eUVxNSDjSfw6dI_Jonb3ylOAnf0B87k/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="{{ site.baseurl }}/notes/note4">Reading (Layout Tips)</a></li>
+            <li style="margin: 15px 0px 15px 0px;"><a href="{{ site.baseurl }}/notes/note5">Videos (PCB Manufacturing)</a></li>
+            <!-- <li style="margin: 15px 0px 15px 0px;"><a href="https://ieee.berkeley.edu/hope-pcb-manufacturing/">Video</a></li> -->
         </ul>
     </td>
     <td class="lab">
@@ -304,7 +321,7 @@ Project Design Review in Class<br>
         In this hands-on lab, you will build and test an interactive trinket that senses touch, temperature, and distance.
     </td>
     <td>
-            <ul><li>
+            <ul><li style="margin: 15px 0px 15px 0px;">
         <a href="https://docs.google.com/presentation/d/1bOsTk5C67lthT3bNcFUVJ-5W1JC66FXKLbewiVcJpm0/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a>
 		</li></ul>
     </td>
