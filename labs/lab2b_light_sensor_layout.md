@@ -8,7 +8,7 @@ permalink: /labs/lab2b
 
 # Light Sensor Lab - Layout
 
-Do not remove this line (it will not be displayed)
+* Do not remove this line (it will not be displayed)
 {:toc}
 
 <div class="hero hero-mini">
