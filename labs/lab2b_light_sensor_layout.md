@@ -8,18 +8,17 @@ permalink: /labs/lab2b
 
 # Light Sensor Lab - Layout
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+Do not remove this line (it will not be displayed)
+{:toc}
 
 <div class="hero hero-mini">
 <h1>HOPE Lab 2: Light Sensor Layout</h1>
 </div>
 <article>
 <!--kg-card-begin: html--><div><!--kg-card-end: html--><!--kg-card-begin: html-->      <div class="linkbox">
-<div class="newh2"><a href="https://ieee.berkeley.edu/hope/" style="font-weight: 700;">HOPE Main Page</a></div>
-</div><!--kg-card-end: html--><!--kg-card-begin: markdown--><p>In this KiCad activity, we'll be laying out the PCB for the schematic we created last week. Before you get started, if you haven't already done the reading for this week we recommend taking a <a href="https://ieee.berkeley.edu/hope-lab-2-layout/ieee.berkeley.edu/hope-rd-layout">look here</a>.</p>
+</div><!--kg-card-end: html--><!--kg-card-begin: markdown--><p>In this KiCad activity, we'll be laying out the PCB for the schematic we created last week. Before you get started, if you haven't already done the reading for this week we recommend taking a <a href="https://hope.berkie.ee/notes/note1">look here</a>.</p>
 <!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="findingsomeparts">Finding Some Parts</h2>
-<p>Before you move get to assigning footprints, you should get familiar with real parts and how to find them. Follow this <a href="https://ieee.berkeley.edu/hope-light-sensor-digikey-search/">hands-on Digikey search walkthrough</a>.</p>
+<p>Before you move get to assigning footprints, you should get familiar with real parts and how to find them. Follow this <a href="https://hope.berkie.ee/labs/lab2a">hands-on Digikey search walkthrough</a>.</p>
 <p><strong>You will need to show your Digikey cart from this activity for checkoff, so don't skip it!</strong></p>
 <!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="footprintassignment">Footprint Assignment</h2>
 <p>What should have been completed so far is the circuit <strong>schematic</strong>. That is, we have transcribed our circuit's components and their connections into a format that KiCad, and hopefully others, can understand. Now, we need to tell KiCad what each of our parts look like physically on the board. First, we need to assign what each component actually looks like in the real world. Or at least, how they will look on our PCB. These representations are called <strong>footprints</strong>.</p>
@@ -122,6 +121,5 @@ copper layer ('F.Cu' or 'B.Cu' that you have not yet done).</li>
 <p>Digikey Cart (see Finding Some Parts Section)</p>
 </li>
 </ul>
-<p><a href="https://ieee.berkeley.edu/hope/">Back to HOPE main page</a></p>
 <!--kg-card-end: markdown--></div>
 </article>

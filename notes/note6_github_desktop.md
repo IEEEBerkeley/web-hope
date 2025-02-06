@@ -6,7 +6,7 @@ description: GitHub Desktop installation and crash course
 permalink: /github_desktop
 ---
 
-GitHub Desktop
+GitHub Desktop  
 ==============
 
 * Do not remove this line (it will not be displayed)
