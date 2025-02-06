@@ -29,7 +29,7 @@ USB Charger Lab - Schematic
 <p>Above is a refresher from the last lab as to what is expected for the schematic. For example, you may want a 01x02 connector symbol for the input power receptacle (aka connector to battery).</p>
 <p>Many parts, including R, C, and L, come in the <code>_Small</code> varieties, which simply are smaller, more compact symbols, and may help make your schematic look neater.</p>
 <blockquote>
-<p>Feel free to use these resources for <a href="http://dexpcb.com/Manual/standard-reference-designators.htm?ref=ieee.berkeley.edu">standard component designators</a> and <a href="https://www.rapidtables.com/electric/electrical_symbols.html?ref=ieee.berkeley.edu">common component symbols</a></p>
+<p>Feel free to use these resources for <a href="https://manual.dexpcb.com/footprint-reference-ids.htm?ref=ieee.berkeley.edu">standard component designators</a> and <a href="https://www.rapidtables.com/electric/electrical_symbols.html?ref=ieee.berkeley.edu">common component symbols</a></p>
 </blockquote>
 <p>For any schematic design, it is a good idea to start with the core components/submodule in the circuit. In the case of our phone charger, what is the core submodule/component?</p>
 <p>If your design pretty much follows the application circuit, you may want to draw your circuit similar to the datasheet but also incorporating ideas of flow from left to right.</p>
@@ -59,9 +59,9 @@ USB Charger Lab - Schematic
 <li>Optional: Make schematic look like the block diagram using the single-page schematic blocking method as talked about in the Requirements/Design Abstraction lecture. Walkthrough how the individual components fullfil the abstracted version's block functions. <em>Highly recommended for improving readability!</em></li>
 </ul>
 <!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="nextsteps">Next Steps</h2>
-<p>After completing your schematic, you should be almost ready to continue onto the board layout. <strong>Assign all your reference designators</strong> if you haven't done so already (if you are doing this manually don't forget there is a button that does this automatically!) then <a href="https://ieee.berkeley.edu/hope-lab-2-layout/">assign footprints</a> according to the parts you selected.</p>
+<p>After completing your schematic, you should be almost ready to continue onto the board layout. <strong>Assign all your reference designators</strong> if you haven't done so already (if you are doing this manually don't forget there is a button that does this automatically!) then <a href="https://hope.berkie.ee/labs/lab2b#light-sensor-lab---layout">assign footprints</a> according to the parts you selected.</p>
 <blockquote>
-<p>Cannot find the footprint you need? You can <a href="https://ieee.berkeley.edu/footprint-creation/">make you own or import one</a> from online. (note that the page has broken image links at the moment)</p>
+<p>Cannot find the footprint you need? You can <a href="https://hope.berkie.ee/notes/note3">make you own or import one</a> from online. (note that the page has broken image links at the moment)</p>
 </blockquote>
 <blockquote>
 <p>FAQ for the switching regulator, if you have an EN pin connect it to V_in directly! A lot of pin assignments can be determined by checking the component datasheet. In this case, we see from the datasheet that we need to tie the enable pin high, hence we connect it to V_in on the schematic.<br>
