@@ -49,7 +49,7 @@ We recommend selecting the *Packaging* filter while searching for components in 
 
 <img src="/assets/lab3/Image 2_ Packaging Types.png" style="border-radius: 1em" alt="DigiKey packaging options">
 
-<img src="/assets/lab3/Image 3_ Packaging IRL.png" style="border-radius: 1em" alt="Reel of components" width=50%>
+<img src="/assets/lab3/Image 3_ Packaging IRL.png" style="border-radius: 1em" alt="Reel of components" width="50%">
 
 ## The World of USB
 You have probably seen these ports on pretty much any electronic device you used recently. Let’s dive into what they are and what they do!
@@ -57,7 +57,7 @@ Types of USB connectors:
 
 For this lab, you will be using three different connectors out of the many options. These are USB-A, micro-B, and C.
 
-<img src="/assets/lab3/Image 4_ Table comparing USBA, Micro, USBC.png" style="border-radius: 1em" alt="Table comparing USB-A, Micro, and USB-C connectors">
+<img src="/assets/lab3/Image 4_ Table comparing USBA, Micro, USBC.png" style="border-radius: 1em" alt="Table comparing USB-A, Micro, and USB-C connectors" width="50%">
 
 ### USB-A Receptacle A
 [USB Type-A female receptacles](https://en.wikipedia.org/wiki/USB_\(Physical\)?ref=ieee.berkeley.edu#Pinouts) have 4 pins:
@@ -76,7 +76,7 @@ For this lab, you will be using three different connectors out of the many optio
 
 - What component are we looking for? A USB-A receptacle, which is a type of connector. This means we need to head to the “Connectors” section and look for the correct category. Click on the category and it should take you to a list of all of the parts in that category.
 
-<img src="/assets/lab3/Image 6_ Digikey USBA Receptacle Categories.png" style="border-radius: 1em" alt="Categories that lead to the USB-A receptacles on Digikey">
+<img src="/assets/lab3/Image 6_ Digikey USBA Receptacle Categories.png" style="border-radius: 1em" alt="Categories that lead to the USB-A receptacles on Digikey" width="50%">
 
 - Now we are at the results page. There should be approximately 4,000 products to choose from and 19 categories to filter the selection by (that's a lot).
 
@@ -116,7 +116,8 @@ Let’s say you’re working on a PCB for a robot safety system. If the board sh
 ### Choosing your diodes!
 When choosing a protection diode, it is important to look at the diode’s type, current rating, forward voltage, and DC reverse voltage.
 1. Navigate to diodes
-<img src="/assets/lab3/Image 8_ Digikey Diode categories.png" style="border-radius: 1em" alt="Categories that lead to diodes on Digikey">
+
+    <img src="/assets/lab3/Image 8_ Digikey Diode categories.png" style="border-radius: 1em" alt="Categories that lead to diodes on Digikey" width="50%">
 2. Now check our standard filters: In-stock, Datasheet, Part Status: Active, and Exclude Marketplace.
 3. Select the Schottky type (ignore the “reverse polarity” category, those are irrelevant specialty parts)
 4. Our requirement for forward voltage here is no more than 750mV at 3A. This means that at 3A going into the regulator, we’ll experience a 0.75V drop across the diode (at lower currents, this will be less). This drop is actually quite problematic, but we’ll ignore it for later parts of the lab (fuse sizing) for convenience.
@@ -130,7 +131,7 @@ To protect the switching regulator from large transient voltage spikes or  short
 
 To start, navigate to the PTC resettable fuse category:
 
-<img src="/assets/lab3/Image 9_ Digikey Fuse Categories.png" style="border-radius: 1em" alt="Categories that lead to fuses on Digikey">
+<img src="/assets/lab3/Image 9_ Digikey Fuse Categories.png" style="border-radius: 1em" alt="Categories that lead to fuses on Digikey" width="50%">
 
 As always, we'll need to filter things down a bit.  After selecting the Active, In-Stock, Datasheet, and Exclude Marketplace filters, we have about 2,000 parts.
 
@@ -150,7 +151,7 @@ In the plot below, we can see that applying 1.5V to the LED will cause almost no
 
 Since we can't (cheaply) provide precisely 2.2V, we generally use a resistor in series with the LED to "drop" the remainder of the voltage from a typical (5V or 3.3V) supply in a stable manner. Without this, even slight variations in voltage would easily destroy the LED, as the current would spike!!
 
-<img src="/assets/lab3/Image 11_ LED resistor circuit.png" style="border-radius: 1em" alt="Simple LED circuit with a series resistor">
+<img src="/assets/lab3/Image 11_ LED resistor circuit.png" style="border-radius: 1em" alt="Simple LED circuit with a series resistor" width="25%">
 
 In order to use an LED, we will follow this procedure:
 
@@ -211,7 +212,7 @@ Let's say you are looking for a 1kΩ resistor in an 0603 package and find [this 
 #### Inductors
 
 Inductors are a lot less commonly used than resistors and capacitors, but you'll almost always find one in a switching power circuit, such as our application here. You'll want to search in Fixed Inductors:
-<img src="/assets/lab3/Image 12_ Finding Passives Inductors Categories.png" style="border-radius: 1em" alt="Categories that lead to inductors on Digikey">
+<img src="/assets/lab3/Image 12_ Finding Passives Inductors Categories.png" style="border-radius: 1em" alt="Categories that lead to inductors on Digikey" width="50%">
 ![Fixed Inductors category on Digikey][image12]
 
 The three important search factors for inductors being used for this power application are the inductor value (L, in Henries), saturation current, and DC Resistance. Follow the recommendations in the datasheet for the part you've chosen for each of these factors (they cover the math, but for a more thorough understanding of calculating inductor requirements, take EE 113 Power Electronics!). For example, the TPS61023 recommends using an inductor with 1 uH value, 9.0 A saturation current, and a DCR of sub 15 mOhm (ideally, DCR is 0, so the general idea you want is to *minimize* the DCR in the inductor you find). As for footprint, inductors are really just packages of coiled wire, so unlike resistors and capacitors, it is more common to find inductors in weird, non-standardized packages described by their dimensions. **For this lab, try to source an inductor *around* 4mm x 4mm (there are a lot of very close dimensions, try searching with *all* of them).**
