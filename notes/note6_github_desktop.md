@@ -12,11 +12,22 @@ GitHub Desktop
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-Git is a version control system that allows multiple people to work on the same project without overwriting each other's changes.
+Git is a distributed version control system that revolutionizes how teams collaborate on software projects. It will:
+- Tracks every modification to your code
+- Maintains a complete history of who changed what and when
+- Enables you to revert to previous versions if something goes wrong
 
-There are a number of different Git services out there, but GitHub is by far the most popular.  It is free even for private repositories, and has a number of features that make it easy to use.
+It is typically used for software development, but can be applied to any project that requires version control.  PCB design (ECAD) and other CAD projects lose the advantage of merging individual files, but the ability to track changes, revert to previous versions, and quickly share files with collaborators is still invaluable.
 
-Typically Git is used through a command line
+GitHub is a web-based platform built around Git that adds:
+- A user-friendly interface for managing Git repositories
+- Tools for code review and project management
+- The world's largest community of developers
+- Free hosting for both public and private projects
+
+While Git traditionally requires command-line expertise (see the [Git Handbook](https://docs.github.com/en/get-started/using-git/about-git) for the basics), GitHub Desktop provides a visual interface that makes version control more accessible to beginners.  
+
+
 
 # Installation
 ## Windows
@@ -46,5 +57,7 @@ Run the command found here: [https://formulae.brew.sh/cask/github](https://formu
 + Click `Create repository`
 
 Now that you've created your repository, you'll need to share it with your teammates!
+
+
 
 ## Cloning a Repository
