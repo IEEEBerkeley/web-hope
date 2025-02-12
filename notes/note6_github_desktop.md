@@ -3,7 +3,7 @@ layout: page
 title: GitHub Desktop
 nav_exclude: true
 description: GitHub Desktop installation and crash course
-permalink: /github_desktop
+permalink: /github-desktop
 ---
 
 GitHub Desktop  
@@ -22,7 +22,6 @@ It is typically used for software development, but can be applied to any project
 GitHub is a web-based platform built around Git that adds:
 - A user-friendly interface for managing Git repositories
 - Tools for code review and project management
-- The world's largest community of developers
 - Free hosting for both public and private projects
 
 While Git traditionally requires command-line expertise (see the [Git Handbook](https://docs.github.com/en/get-started/using-git/about-git) for the basics), GitHub Desktop provides a visual interface that makes version control more accessible to beginners.  
@@ -58,6 +57,15 @@ Run the command found here: [https://formulae.brew.sh/cask/github](https://formu
 
 Now that you've created your repository, you'll need to share it with your teammates!
 
-
-
 ## Cloning a Repository
+
+
+# Video Tutorial
+
+If you prefer to learn by watching, here is a good video tutorial that covers the basics of using Git for KiCad version control:
+
+<iframe width="896" height="504" src="https://www.youtube.com/embed/YCKeqBlQyJQ?si=SI-hVz0a9HZNLg6y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# PDM with KiCad
+- https://allspice.io/
+- https://cadlab.io/
