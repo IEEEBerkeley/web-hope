@@ -212,8 +212,8 @@ Let's say you are looking for a 1kΩ resistor in an 0603 package and find [this 
 #### Inductors
 
 Inductors are a lot less commonly used than resistors and capacitors, but you'll almost always find one in a switching power circuit, such as our application here. You'll want to search in Fixed Inductors:
+
 <img src="/assets/lab3/Image 12_ Finding Passives Inductors Categories.png" style="border-radius: 1em" alt="Categories that lead to inductors on Digikey" width="50%">
-![Fixed Inductors category on Digikey][image12]
 
 The three important search factors for inductors being used for this power application are the inductor value (L, in Henries), saturation current, and DC Resistance. Follow the recommendations in the datasheet for the part you've chosen for each of these factors (they cover the math, but for a more thorough understanding of calculating inductor requirements, take EE 113 Power Electronics!). For example, the TPS61023 recommends using an inductor with 1 uH value, 9.0 A saturation current, and a DCR of sub 15 mOhm (ideally, DCR is 0, so the general idea you want is to *minimize* the DCR in the inductor you find). As for footprint, inductors are really just packages of coiled wire, so unlike resistors and capacitors, it is more common to find inductors in weird, non-standardized packages described by their dimensions. **For this lab, try to source an inductor *around* 4mm x 4mm (there are a lot of very close dimensions, try searching with *all* of them).**
 
@@ -227,11 +227,12 @@ Answer the following questions:
 2. What is the maximum value of I\_DEVCHG? *Hint:* Look at Table 5-2
 3. If a device is drawing 0.25A, what is the minimum voltage the charger can output? *Hint:* Look at Figure 4-2
 
-    Your charger should connect the D+ and D- pins to indicate that it is a charging port. These pins can be connected in a variety of ways, but we'll simply short them together. See [Figure 2 in this application note](https://www.maximintegrated.com/en/design/technical-documents/tutorials/5/5801.html?ref=ieee.berkeley.edu) for details on ways to configure this.
+Your charger should connect the D+ and D- pins to indicate that it is a charging port. These pins can be connected in a variety of ways, but we'll simply short them together. See [Figure 2 in this application note](https://www.maximintegrated.com/en/design/technical-documents/tutorials/5/5801.html?ref=ieee.berkeley.edu) for details on ways to configure this.
 
-    Read section 4.11 “Parameter Values” in [the Type-C spec](https://drive.google.com/file/d/1PPfcQlI94Xd0DI7CqndRF1xYeAsQQgNT/view?usp=sharing), and answer the following questions:
+Read section 4.11 “Parameter Values” in [the Type-C spec](https://drive.google.com/file/d/1PPfcQlI94Xd0DI7CqndRF1xYeAsQQgNT/view?usp=sharing), and answer the following question:
 
-4. If we had connected pullup resistors with values of 10 kΩs instead of 22 kΩs on the CC lines, how would this affect the PD current the USB-C port advertises?
+{:style="counter-set: step-counter 3;"}
+4. If we had connected pullup resistors with values of 10 kΩ instead of 22 kΩ on the CC lines, how would this affect the PD current the USB-C port advertises?
 
 Make sure you have… 
 - Answers to which USB-C you chose and why
@@ -245,4 +246,4 @@ Make sure you have…
     - SMD indicator LED and resistor
     - Switching regulator (DC-DC power conversion)
     - Additional components/passives related to the switching regulator (capacitors, resistors, inductors, possibly a transistor) and the USB-C connector
-    - You do not need to worry about input power from the batteries (we will use a standard [pin header](https://en.wikipedia.org/wiki/Pin_header?ref=ieee.berkeley.edu))  |
+    - You do not need to worry about input power from the batteries (we will use a standard [pin header](https://en.wikipedia.org/wiki/Pin_header?ref=ieee.berkeley.edu))
