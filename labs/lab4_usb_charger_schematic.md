@@ -61,7 +61,7 @@ USB Charger Lab - Schematic
 <!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="nextsteps">Next Steps</h2>
 <p>After completing your schematic, you should be almost ready to continue onto the board layout. <strong>Assign all your reference designators</strong> if you haven't done so already (if you are doing this manually don't forget there is a button that does this automatically!) then <a href="https://hope.berkie.ee/labs/lab2b#light-sensor-lab---layout">assign footprints</a> according to the parts you selected.</p>
 <blockquote>
-<p>Cannot find the footprint you need? You can <a href="https://hope.berkie.ee/notes/note3">make you own or import one</a> from online.</p>
+<p>Cannot find the footprint you need? You can <a href="https://hope.berkie.ee/notes/note3">make your own or import one</a> from online.</p>
 </blockquote>
 <blockquote>
 <p>FAQ for the switching regulator, if you have an EN pin connect it to V_in directly! A lot of pin assignments can be determined by checking the component datasheet. In this case, we see from the datasheet that we need to tie the enable pin high, hence we connect it to V_in on the schematic.<br>
