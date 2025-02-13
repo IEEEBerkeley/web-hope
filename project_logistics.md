@@ -107,3 +107,5 @@ The final showcase will be held during RRR week.  Details will be provided close
 [Project Group Form](http://berkie.ee/hope-sp25-project-group-submission)
 
 [Project Proposal Form](http://berkie.ee/hope-sp25-project-proposal-submission)
+
+[Github Desktop Guide]({{ site.baseurl }}/notes/note6)
