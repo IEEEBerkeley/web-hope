@@ -24,8 +24,8 @@ USB Charger Lab - Schematic
 <div class="newh2"><a href="https://ieee.berkeley.edu/hope/" style="font-weight: 700;">HOPE Main Page</a></div>
 </div><!--kg-card-end: html--><!--kg-card-begin: markdown--><h1 id="schematicdrawing">Schematic Drawing</h1>
 <p>With the parts you have chosen from the previous lab and the provided block diagram, you're ready to start drawing the schematic.</p>
-<p><strong>Open KiCad and draw a schematic for your USB charger.</strong></p>
-<p><br><img src="../assets/lab4/circuit-diode2-2.png" alt="Abstract Schematic (block diagram) of USB Charger" style="width: 100%; margin: auto; display:block; background-color:#FFFFFF"> <br></p>
+<p><strong>Open KiCad and draw a schematic for your USB charger.</strong></p> 
+<p><br><img src="../assets/lab4/Image 1_ USB Charger Block Diagram.png" alt="Abstract Schematic (block diagram) of USB Charger" style="width: 100%; margin: auto; display:block; background-color:#FFFFFF"> <br></p>
 <p>Above is a refresher from the last lab as to what is expected for the schematic. For example, you may want a 01x02 connector symbol for the input power receptacle (aka connector to battery).</p>
 <p>Many parts, including R, C, and L, come in the <code>_Small</code> varieties, which simply are smaller, more compact symbols, and may help make your schematic look neater.</p>
 <blockquote>
@@ -56,12 +56,12 @@ USB Charger Lab - Schematic
 <li><strong>Show us your completed schematic and demonstrate it passes ERC</strong></li>
 <li>Walk through the major sections of your schematic</li>
 <li>Compare the part symbol you made and the one you imported to their respective datasheets. Did you have to make this symbol if we did not explicitly ask you to?</li>
-<li>Optional: Make schematic look like the block diagram using the single-page schematic blocking method as talked about in the Requirements/Design Abstraction lecture. Walkthrough how the individual components fullfil the abstracted version's block functions. <em>Highly recommended for improving readability!</em></li>
+<li>Optional: Make schematic look like the block diagram using the single-page schematic blocking method as talked about in the Requirements/Design Abstraction lecture. Walk through how the individual components fullfil the abstracted version's block functions. <em>Highly recommended for improving readability!</em></li>
 </ul>
 <!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="nextsteps">Next Steps</h2>
 <p>After completing your schematic, you should be almost ready to continue onto the board layout. <strong>Assign all your reference designators</strong> if you haven't done so already (if you are doing this manually don't forget there is a button that does this automatically!) then <a href="https://hope.berkie.ee/labs/lab2b#light-sensor-lab---layout">assign footprints</a> according to the parts you selected.</p>
 <blockquote>
-<p>Cannot find the footprint you need? You can <a href="https://hope.berkie.ee/notes/note3">make you own or import one</a> from online. (note that the page has broken image links at the moment)</p>
+<p>Cannot find the footprint you need? You can <a href="https://hope.berkie.ee/notes/note3">make you own or import one</a> from online.</p>
 </blockquote>
 <blockquote>
 <p>FAQ for the switching regulator, if you have an EN pin connect it to V_in directly! A lot of pin assignments can be determined by checking the component datasheet. In this case, we see from the datasheet that we need to tie the enable pin high, hence we connect it to V_in on the schematic.<br>
