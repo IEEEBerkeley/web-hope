@@ -27,6 +27,8 @@ For any group or project issues, it is always better to reach out to the instruc
 
 Submit your project group via [Google Forms](http://berkie.ee/hope-sp25-project-group-submission) once per group.
 
+Once you've formed your group, we suggest you set up a group chat to communicate and a Github repository to share your project files.  We have a guide [here]({{ site.baseurl }}/github-desktop) that shows how to set up a repository specifically for KiCad, and a brief introduction to Github Desktop.
+
 ## Project Proposal *(Due 2/28/25 11:59pm)*
 
 Your project will need to demonstrate some feature from at least three of the following categories:
