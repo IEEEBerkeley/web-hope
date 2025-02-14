@@ -29,6 +29,7 @@ While Git traditionally requires command-line expertise (see the [Git Handbook](
 
 
 # Installation
+Choose any one of these installation options corresponding to your operating system!
 ## Windows
 ### Official Installer
 Download and run the GitHub Desktop installer from the official website: [https://desktop.github.com/download/](https://desktop.github.com/download/)
