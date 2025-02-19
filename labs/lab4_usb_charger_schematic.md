@@ -36,7 +36,7 @@ USB Charger Lab - Schematic
 <p>Try to name as many nets as possible with useful names! The datasheet(s) may help with this.</p>
 <h2 id="schematicsymbols">Schematic Symbols</h2>
 <p>You might notice that in general, KiCad's symbol libraries may not have all the parts you want to use. When this happens, you have two options as described below to add more part symbols to your KiCad.</p>
-<p>For this lab, please use follow <strong>Method A for your regulator IC</strong>. For your USB connector, you can use the generic USB A symbol in KiCad. You <strong>should also add the DigiKey library by following Method B below</strong>, regardless of whether there are already KiCad symbols available:</p>
+<p>For this lab, please follow Method A for your regulator IC. For your USB connectors, you can use the generic USB-A symbol in KiCad, and the generic 16-pin USB-C symbol. You should also add the DigiKey library by following Method B below, regardless of whether there are already KiCad symbols available:</p>
 <p><strong>A</strong>. Create a symbol yourself from the datasheet (it will help to have the component datasheet open and ready to go before starting). <strong><a href="https://docs.google.com/presentation/d/1_LhTxAqtXAgTtaF7BMxn-zAdomglfNoVxemuDgUhpzw/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Follow along in these slides from the lecture</a></strong>.</p>
 <blockquote>
 <p><strong>HINT</strong>: we <em>highly</em> recommend going through that slide deck above for this lab</p>
