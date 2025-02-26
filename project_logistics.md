@@ -19,7 +19,7 @@ Refer to the bCourses "Grading Breakdown" for grading details.
 ## Project Groups *(Due 2/21/25 11:59pm)*
 We recommend you work in groups of 3-4 people.  Other group sizes may be allowed at instructor discretion.  If you are having trouble finding a group, fill out our group search form to be matched with other students: [Group Search Form](http://berkie.ee/hope-sp25-group-search).
 
-Once you've formed your group, please fill out the following form: [Project Group Form](https://forms.gle/LzHeeZHy7nEBGzLN6).
+Once you've formed your group, please fill out the following form: [Project Group Form](http://berkie.ee/hope-sp25-project-group-submission).
 
 ***We expect all group members to contribute fairly to the project.***
 
