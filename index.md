@@ -318,7 +318,6 @@ Project Design Review in Class<br>
     </td>
     <td style="text-align: left;">
         <strong>Fun Miscellaneous Topics</strong><br><br>
-        In this hands-on lab, you will build and test an interactive trinket that senses touch, temperature, and distance.
     </td>
     <td>
             <ul><li style="margin: 15px 0px 15px 0px;">
