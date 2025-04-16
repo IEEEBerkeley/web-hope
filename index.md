@@ -317,7 +317,7 @@ Project Design Review in Class<br>
         4/23<br>4/24
     </td>
     <td style="text-align: left;">
-        <strong>Trinket Hands-On Lab</strong><br><br>
+        <strong>Fun Miscellaneous Topics</strong><br><br>
         In this hands-on lab, you will build and test an interactive trinket that senses touch, temperature, and distance.
     </td>
     <td>
