@@ -19,13 +19,13 @@ Refer to the bCourses "Grading Breakdown" for grading details.
 ## Project Groups *(Due 9/26/25 11:59pm)*
 We recommend you work in groups of 3-4 people.  Other group sizes may be allowed at instructor discretion.  If you are having trouble finding a group, fill out our group search form to be matched with other students: [Group Search Form](http://berkie.ee/hope-sp25-group-search).
 
-Once you've formed your group, please fill out the following form: [Project Group Form](http://berkie.ee/hope-sp25-project-group-submission).
+Once you've formed your group, please fill out the following form: [Project Group Form](http://berkie.ee/hope-fa25-project-group-submission).
 
 ***We expect all group members to contribute fairly to the project.***
 
 For any group or project issues, it is always better to reach out to the instructors **early**.  (Please do not hesitate to make a public or private post on Ed, or email us!)
 
-Submit your project group via [Google Forms](http://berkie.ee/hope-sp25-project-group-submission) once per group.
+Submit your project group via [Google Forms](http://berkie.ee/hope-fa25-project-group-submission) once per group.
 
 Once you've formed your group, we suggest you set up a group chat to communicate and a Github repository to share your project files.  We have a guide [here]({{ site.baseurl }}/github-desktop) that shows how to set up a repository specifically for KiCad, and a brief introduction to Github Desktop.
 
@@ -52,7 +52,7 @@ By the nature of the project, the *Compute* and *Power* categories are required,
 + If you are using an online project as inspiration, please include a reference to it.
 + *When in doubt, ask the instructors!*
 
-Submit your proposal via [Google Forms](http://berkie.ee/hope-sp25-project-proposal-submission) once per group.
+Submit your proposal via [Google Forms](http://berkie.ee/hope-fa25-project-proposal-submission) once per group.
 
 ## Project Checkpoints
 There will be two major checkpoints for your project to be submitted on bCourses that your two mentors will review and provide feedback on:
