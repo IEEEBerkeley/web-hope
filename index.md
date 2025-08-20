@@ -8,7 +8,7 @@ seo:
   name: Berkeley IEEE HOPE
 ---
 
-# Hands-On PCB Engineering (HOPE) [Spring 2025]
+# Hands-On PCB Engineering (HOPE) [Fall 2025]
 <!-- {:.no_toc} -->
 
 {%- if site.under_construction -%}
