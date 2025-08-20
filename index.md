@@ -44,7 +44,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>1</strong> <br>
-        1/29<br>1/30
+        9/3<br>9/4
     </td>
     <td style="text-align: left;">
         <b>Intro to PCB and Schematics</b><br><br>
@@ -78,7 +78,7 @@ This website contains materials from a past semester. Information, assignments, 
 <tr>
     <td style="text-align:center;"> <!-- Week -->
         <strong>2</strong> <br> 
-        2/5<br>2/6
+        9/10<br>9/11
     </td>
     <td style="text-align: left;"> <!-- Topic -->
         <b>Footprints and Layout</b><br><br>
@@ -105,7 +105,7 @@ This website contains materials from a past semester. Information, assignments, 
 <tr>
     <td style="text-align:center;">
         <strong>3</strong> <br> 
-        2/12<br>2/13
+        9/17<br>9/18
     </td>
     <td style="text-align: left;">
                <b>Understanding Components</b><br><br>
@@ -128,7 +128,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>4</strong> <br> 
-        2/19<br>2/20
+        9/24<br>9/25
     </td>
     <td style="text-align: left;">
         <b>PCB Requirements</b><br><br>
@@ -145,17 +145,17 @@ This website contains materials from a past semester. Information, assignments, 
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-part1/">USB Charger Schematic</a> -->
     </td>
     <td>
-        USB Charger Components <br> - Due 2/21
+        USB Charger Components <br> - Due 9/26
     </td>
     <td>
-        <a href="http://berkie.ee/hope-sp25-project-group-submission">Project Groups</a> 
-        <br> - Due 2/21
+        <a href="http://berkie.ee/hope-fa25-project-group-submission">Project Groups</a> 
+        <br> - Due 9/26
         <br> - (3 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>5</strong> <br> 
-        2/26<br>2/27
+        10/1<br>10/2
     </td>
     <td style="text-align: left;">
         <b>Microcontroller Basics</b><br><br>
@@ -171,16 +171,16 @@ This website contains materials from a past semester. Information, assignments, 
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-layout/">USB Charger Layout</a> -->
     </td>
     <td>
-        USB Charger Schematic <br> - Due 2/28
+        USB Charger Schematic <br> - Due 10/3
     </td>
     <td>
-<a href="http://berkie.ee/hope-sp25-project-proposal-submission">Project Proposal</a>
-    <br> - Due 2/28
+<a href="http://berkie.ee/hope-fa25-project-proposal-submission">Project Proposal</a>
+    <br> - Due 10/3
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>6</strong> <br> 
-        3/5<br>3/6
+        10/8<br>10/9
     </td>
     <td style="text-align: left; line-height: 30px;">
         <b>Assembly and Soldering</b><br><br>
@@ -196,7 +196,7 @@ This website contains materials from a past semester. Information, assignments, 
 		Soldering Practice
     </td>
     <td>
-        USB Charger Layout <br> - Due 3/7
+        USB Charger Layout <br> - Due 10/10
     </td>
     <td>
         Proposal Review
@@ -204,7 +204,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>7</strong> <br> 
-        3/12<br>3/13
+        10/15<br>10/16
     </td>
     <td style="text-align: left;">
         <strong>USB Hands-On Experience</strong><br><br>
@@ -216,15 +216,15 @@ This website contains materials from a past semester. Information, assignments, 
         <a href="https://docs.google.com/presentation/d/10QwwdUPcAvdNy7LkakU-zVrh70OtulW7V5JNu-0g_cg/edit#slide=id.gcb501ed038_0_0">USB Charger Hands-On Instructions</a><br>
     </td>
     <td>
-        Hands on: Soldering <br> - Due 3/14
+        Hands on: Soldering <br> - Due 10/17
     </td>
     <td>
-        Project BOM &amp; Schematic <br> - Due 3/14
+        Project BOM &amp; Schematic <br> - Due 10/17
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>8</strong> <br> 
-        3/19<br>3/20
+        10/22<br>10/23
     </td>
     <td style="text-align: left;">
         <b>Advanced Layout and Passives</b><br><br>
@@ -237,7 +237,7 @@ This website contains materials from a past semester. Information, assignments, 
     <td class="lab">
     </td>
     <td>
-        Hands on: USB Charger <br> - Due 3/21
+        Hands on: USB Charger <br> - Due 10/24
     </td>
     <td>
         Project Work Session
@@ -245,7 +245,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>9</strong> <br> 
-        4/2<br>4/3
+        10/29<br>10/30
     </td>
     <td style="text-align: left;">
         <b>Project Design Review</b>
@@ -259,12 +259,12 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td>
-        Project Layout <br> - Due 4/4
+        Project Layout <br> - Due 10/31
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>10</strong> <br> 
-        4/9<br>4/10
+        11/5<br>11/6
     </td>
     <td style="text-align: left;">
         <b>Ordering, Testing, and Bringup</b><br><br>
@@ -281,12 +281,12 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td>
-        <strong>FINAL PCB files <br> - Due 4/10 (Thursday)</strong>
+        <strong>FINAL PCB files <br> - Due 11/6 (Thursday)</strong>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>11</strong> <br> 
-        4/16<br>4/17
+        11/12<br>11/13
     </td>
     <td style="text-align: left;">
         <b>PCB Manufacturing</b><br><br>
@@ -305,7 +305,7 @@ Project Design Review in Class<br>
 	    <!-- <a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a> -->
     </td>
     <td>
-        Trinket Prelab <br> - Due 4/25
+        Trinket Lab <br> - Due 11/25
     </td>
     <td>
 
@@ -314,7 +314,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>12</strong> <br> 
-        4/23<br>4/24
+        11/19<br>11/20
     </td>
     <td style="text-align: left;">
         <strong>Fun Miscellaneous Topics</strong><br><br>
@@ -327,6 +327,7 @@ Project Design Review in Class<br>
     <td class="lab">
     </td>
     <td>
+        Trinket Lab <br> - Due 11/25
     </td>
     <td>
         Project Assembly
@@ -334,7 +335,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>13</strong> <br> 
-        4/30<br>5/1
+        12/3<br>12/4
     </td>
     <td style="text-align: left;">
         <b>Guest Lecture</b>
@@ -350,7 +351,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>14</strong> <br> 
-        5/9
+        12/12
     </td>
     <td style="text-align: left;">
         <b>Final Project Showcase</b>

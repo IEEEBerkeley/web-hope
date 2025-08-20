@@ -11,11 +11,11 @@ Through HOPE, you will learn effective printed circuit board (PCB) design and de
 
 ### Enrolling in HOPE
 
-Students who are interested in signing up for HOPE in Spring 2025 should fill out [THIS](https://berkie.ee/hope-sp25-apply) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Fall '24 was [https://decal.berkeley.edu/courses/7583](https://decal.berkeley.edu/courses/7583).
+Students who are interested in signing up for HOPE in Spring 2025 should fill out [THIS](https://berkie.ee/hope-fa25-apply) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Spring '25 was [https://decal.studentorg.berkeley.edu/courses/7764](https://decal.studentorg.berkeley.edu/courses/7764).
 
 Please email us if you are a concurrent enrollment student- we prioritize matriculated UC Berkeley students. Space permitting, however, concurrent enrollment students are welcome to take HOPE.
 
-Classes begin week of 1/26.
+Classes begin week of 9/1.
 
 We offer HOPE as an in-person class this semester. We plan to hold two identical sections of class each week (Wed and Thurs), and you can choose which section to enroll in.
 
@@ -40,4 +40,4 @@ Please email us at [hope@ieee.berkeley.edu](hope@ieee.berkeley.edu)
 
 ### Project Showcases
 
-[Fall 2024 Showcase](https://sites.google.com/berkeley.edu/hope-fall-24-showcasesp24)
+[Spring 2025 Showcase](https://sites.google.com/berkeley.edu/hope-ape-sp25-final-project/home)
