@@ -96,7 +96,7 @@ This website contains materials from a past semester. Information, assignments, 
         <a href="{{ site.baseurl }}/labs/lab2b">Light Sensor Layout</a>
     </td>
     <td> <!-- Lab Checkoff Due -->
-        Light Sensor Schematic <br> - Due 2/7
+        Light Sensor Schematic <br> - Due 9/12
     </td>
     <td> <!-- Project Checkpoint -->
     </td>
@@ -121,7 +121,7 @@ This website contains materials from a past semester. Information, assignments, 
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-components">USB Charger Components</a> -->
     </td>
     <td>
-        Light Sensor Components+Layout <br> - Due 2/14
+        Light Sensor Components+Layout <br> - Due 9/19
     </td>
     <td>
     </td>
