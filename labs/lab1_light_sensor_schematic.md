@@ -95,7 +95,7 @@ If the first option is greyed out, please ask an instructor for assistance.
 1.  Visually double-check your schematic to make sure it matches the reference schematic above. The ERC *does not check this for you*. 
 
 
-# Check-in
+# Check-off
 Once your ERC returns no errors and your schematic matches the reference schematic, fill out the check-off form: [https://berkie.ee/hope-fa25-checkoff](https://berkie.ee/hope-fa25-checkoff)
 
 When it's your turn, a staff member will come by, review your schematic, and ask a few questions.  If everything looks good, they will check you off for this lab.
