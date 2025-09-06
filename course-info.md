@@ -28,7 +28,7 @@ HOPE is not a class about circuits. We expect students to have a basic understan
 
 Your grade is primarily based on completion of labs and assignments. The final project is graded both on completion and demonstration of concepts taught in the course. Students need 70% to pass.
 
-See bCourses for detailed [grading breakdown](https://bcourses.berkeley.edu/courses/1541379/pages/grading-breakdown). We will keep track of grade-related things in bCourses. Other course content will be found here on the website.
+See bCourses for detailed [grading breakdown](https://bcourses.berkeley.edu/courses/1549296/pages/grading-breakdown). We will keep track of grade-related things in bCourses. Other course content will be found here on the website.
 
 ### Office Hours
 
