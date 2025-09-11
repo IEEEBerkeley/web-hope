@@ -4,6 +4,4 @@ role: Instructor
 photo: rick_huang.jpeg
 ---
 
-Battery Lead at Formula Electric\
-3rd year EECS\
-former MechE convert :3
+Super Senior EECS; formerly MechE but now redeemed
