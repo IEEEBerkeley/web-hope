@@ -5,5 +5,5 @@ photo: roman_silivra.jpg
 ---
 
 Hello, I'm Roman\
-(1st year EECS),\
+(2nd year EECS),\
 welcome to HOPE! :D

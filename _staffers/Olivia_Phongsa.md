@@ -4,6 +4,4 @@ role: Instructor
 photo: olivia_phongsa.webp
 ---
 
-*HOPE Director*
-
-2nd Year EECS
+3rd Year EECS, HOPE Director!

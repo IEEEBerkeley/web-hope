@@ -4,5 +4,5 @@ role: Instructor
 photo: sai_praneth_raju_kanchanapalli.png
 ---
 
-2nd year Astrophysics.\
-Tennis, Chess, Cybersecurity
+3rd year Astrophysics & Comp Sci.\
+Love Cybersecurity & Tennis.
