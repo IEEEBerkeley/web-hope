@@ -11,8 +11,6 @@ description: Potentially helpful resources for students
 
 [Design Reference Doc](https://docs.google.com/document/d/1sA1MmZkygvkN0kvH0_EiXm4IRMi5ilCOcb7CaAVOmxY/edit?tab=t.0#heading=h.s0qhnjil5ztq)
 
-[Project Group Search Form](http://berkie.ee/hope-fa25-group-search)
-
 [Project Group Submission Form](http://berkie.ee/hope-fa25-project-group-submission)
 
 [Project Proposal Form](http://berkie.ee/hope-fa25-project-group)
