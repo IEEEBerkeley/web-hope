@@ -4,4 +4,4 @@ role: Instructor
 photo: aarav_singh.jpg
 ---
 
-2nd year EECS
+3rd year EECS
