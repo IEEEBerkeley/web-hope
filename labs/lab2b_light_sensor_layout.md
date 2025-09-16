@@ -90,7 +90,7 @@ permalink: /labs/lab2b
 <li>
 <p>Add a ground plane/ground pour to cover this board on both the top and bottom layers. A ground plane is a fill of copper dedicated entirely to the GND net. It is <em>generally</em> a good idea because it makes routing easier and reduces ground noise. It's also the reason why you don't connect ground with traces above.To do this:</p>
 <ol>
-<li>Select the 'F.Cu' (Front Copper) or 'B.Cu' layer and click the <code>Add filled zones</code> icon in the right toolbar. Click on a corner of your board outline. Select <code>GND</code> as the net. Check <code>Constrain to H, V, and 45 degrees</code> and then press <code>OK</code>.</li>
+<li>Select the 'F.Cu' (Front Copper) or 'B.Cu' layer and click the <code>Draw filled zones</code> icon in the right toolbar. Click on a corner of your board outline. Select <code>GND</code> as the net.</li>
 <li>Draw the ground plane polygon. Make sure it follow your Edge Cuts outline. Click your starting point to close the ground pour polygon.</li>
 </ol>
 </li>
