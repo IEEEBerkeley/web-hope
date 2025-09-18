@@ -21,7 +21,7 @@ description: Potentially helpful resources for students
 
 [Extension Request Form](http://berkie.ee/hope-fa25-extension)
 
-HOPE bCourses
+[HOPE bCourses](https://bcourses.berkeley.edu/courses/1549296)
 
 ## Other Forms
 
