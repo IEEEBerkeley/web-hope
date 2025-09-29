@@ -17,7 +17,7 @@ This page is a brief summary of the project logistics for the course.  Please re
 Refer to the bCourses "Grading Breakdown" for grading details.
 
 ## Project Groups *(Due 9/26/25 11:59pm)*
-We recommend you work in groups of 3-4 people.  Other group sizes may be allowed at instructor discretion.  If you are having trouble finding a group, fill out our group search form to be matched with other students: [Group Search Form](http://berkie.ee/hope-sp25-group-search).
+We recommend you work in groups of 3-4 people.  Other group sizes may be allowed at instructor discretion.  If you are having trouble finding a group, fill out our group search form to be matched with other students: [Group Search Form](http://berkie.ee/hope-fa25-group-search).
 
 Once you've formed your group, please fill out the following form: [Project Group Form](http://berkie.ee/hope-fa25-project-group-submission).
 
@@ -61,7 +61,7 @@ This submission will contain a draft Bill of Materials (BOM) following the [stan
 
 Your project should be within the budget of $100 for **two copies** of your PCB.  If you are over budget, you will need to justify the cost, at which point it may or may not be approved.
 
-### Draft Layout *(Due 10/231/25 11:59pm)*
+### Draft Layout *(Due 10/31/25 11:59pm)*
 See the bCourses assignment for details on what to submit.  Your layout should be mostly complete at this point.
 
 ## In-class Design Review *(Slides due the night before your lecture)*
