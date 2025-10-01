@@ -47,9 +47,14 @@ Download and run the GitHub Desktop installer from the official website: [https:
 Run the command found here: [https://formulae.brew.sh/cask/github](https://formulae.brew.sh/cask/github)
 
 # Basic Usage
-## Creating and Sharing a Repository
-> Only one person on your team needs to create the repository!  Anyone who does not do this should skip to the next section.
-+ Go to [https://github.com/new](https://github.com/new) to create a new repository.
+## Creating and Sharing a Repository with Github Classroom
++ Follow this link to accept the assignment: [https://classroom.github.com/a/wL2dZu3n](https://classroom.github.com/a/wL2dZu3n) *(Fall 2025)*
++ Create or join your team
++ Accept the assignment to create your repository
++ You may have to accept the assignment through an email!
+
+<!-- > Only one person on your team needs to create the repository!  Anyone who does not do this should skip to the next section. -->
+<!-- + Go to [https://github.com/new](https://github.com/new) to create a new repository.
 <img src="/assets/note6/github-new.png" style="border-radius: 1em" alt="GitHub repository creation page">
 + Enter a name for your repository, and an optional description
 + Choose to keep your repository Public or Private.  We suggest keeping it private, at least for now.
@@ -64,13 +69,13 @@ Now that you've created your repository, you'll need to share it with your teamm
 
 + In the future, it may be helpful to share your repository with your project mentors as well, so they can provide feedback and help troubleshoot any issues.
 
-<img src="/assets/note6/github-sharing.png" style="border-radius: 1em" alt="GitHub repository collaborators page">
+<img src="/assets/note6/github-sharing.png" style="border-radius: 1em" alt="GitHub repository collaborators page"> -->
 
 ## Cloning a Repository
 
 + Sign into your GitHub account in GitHub Desktop
 + Press `Ctrl + Shift + O` or click `File > Clone Repository` to open the Clone Repository dialog
-+ Select your project repository from the list of your repositories on GitHub
++ Select your project repository from the list of your repositories on GitHub (it will show up under the IEEE-HOPE Github organization)
 + Choose a local path to clone the repository to
 + Click `Clone`
 

@@ -54,10 +54,8 @@ This website contains materials from a past semester. Information, assignments, 
         <ul>
         	<li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/1_WpjAtmyzuS9GUMBTAqdr_m3CKrjq7B2jTPNEdKDj6Q/edit?usp=sharing&amp;ref=ieee.berkeley.edu">Slides</a>
             </li>
-            <li style="margin-top: 10px;"><a href="{{ site.baseurl }}/notes/note1">Reading (Intro to PCBs)</a>
-            </li> 
-            <li style="margin-top: 10px;"><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a>
-            </li> 
+            <li style="margin-top: 10px;"><a href="{{ site.baseurl }}/notes/note1">Reading (Intro to PCBs)</a> </li>
+            <li style="margin-top: 10px;"><a href="{{ site.baseurl }}/notes/note2">Reading (Schematics)</a> </li>
         </ul>
     </td>
     <td class="lab">
@@ -71,7 +69,9 @@ This website contains materials from a past semester. Information, assignments, 
     <td>
         <a href="{{ site.baseurl }}/project-logistics">Project Logistics</a> <br><br>
         <a href="https://docs.google.com/document/d/1smVeWLNiplKkxcA6GZ_3y53MKBoSkndNkYT-nEIYHTI/edit">Project Spec</a> <br><br>
-        <a href="https://docs.google.com/spreadsheets/d/1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo/edit?usp=sharing&amp;ref=ieee.berkeley.edu"> BOM Template</a>
+        <a href="https://docs.google.com/spreadsheets/d/1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo/edit?usp=sharing&amp;ref=ieee.berkeley.edu"> BOM Template</a> <br>
+        <a href="https://classroom.github.com/a/wL2dZu3n">Github Classroom</a>
+        <a href="{{ site.baseurl }}/github-desktop">Git Setup</a>
     </td>
 </tr>
 
