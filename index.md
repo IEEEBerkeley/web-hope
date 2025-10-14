@@ -207,6 +207,28 @@ This website contains materials from a past semester. Information, assignments, 
         10/15<br>10/16
     </td>
     <td style="text-align: left;">
+        <b>Advanced Layout and Passives</b><br><br>
+        General layout process and overview of concerns. Non-ideal passives. 
+    </td>
+    <td>
+        <ul><li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/12JF1bfG0X4mbw5ZZFWQvI6EWk4TB9M_f-vcO1WBV-I8/edit#slide=id.g11f980f9a13_1_191">Slides</a></li>
+        <li style="margin: 15px 0px 15px 0px;"><!--<a href="https://ieee.berkeley.edu/hope-assembly/">Extra Videos</a>--> Extra Videos</li></ul>
+    </td>
+    <td class="lab">
+        Project Work Session
+    </td>
+    <td>
+        Hands on: Soldering <br> - Due 10/17
+    </td>
+    <td>
+        Project Work Session
+    </td>
+</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
+    <td style="text-align:center;">
+        <strong>8</strong> <br> 
+        10/22<br>10/23
+    </td>
+    <td style="text-align: left;">
         <strong>USB Hands-On Experience</strong><br><br>
         Assemble a PCB based on the USB Charger lab, and use it to charge your phone. 
     </td>
@@ -216,32 +238,11 @@ This website contains materials from a past semester. Information, assignments, 
         <a href="https://docs.google.com/presentation/d/10QwwdUPcAvdNy7LkakU-zVrh70OtulW7V5JNu-0g_cg/edit#slide=id.gcb501ed038_0_0">USB Charger Hands-On Instructions</a><br>
     </td>
     <td>
-        Hands on: Soldering <br> - Due 10/17
     </td>
     <td>
-        Project BOM &amp; Schematic <br> - Due 10/17
+        Project BOM &amp; Schematic <br> - Due 10/21
     </td>
-</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td style="text-align:center;">
-        <strong>8</strong> <br> 
-        10/22<br>10/23
-    </td>
-    <td style="text-align: left;">
-        <b>Advanced Layout and Passives</b><br><br>
-        General layout process and overview of concerns. Non-ideal passives. 
-    </td>
-    <td>
-        <ul><li style="margin: 15px 0px 15px 0px;"><a href="https://docs.google.com/presentation/d/12JF1bfG0X4mbw5ZZFWQvI6EWk4TB9M_f-vcO1WBV-I8/edit#slide=id.g11f980f9a13_1_191">Slides</a></li>
-        <li style="margin: 15px 0px 15px 0px;"><!--<a href="https://ieee.berkeley.edu/hope-assembly/">Extra Videos</a>--> Extra Videos</li></ul>
-    </td>
-    <td class="lab">
-    </td>
-    <td>
-        Hands on: USB Charger <br> - Due 10/24
-    </td>
-    <td>
-        Project Work Session
-    </td>
+    
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>9</strong> <br> 
@@ -251,12 +252,13 @@ This website contains materials from a past semester. Information, assignments, 
         <b>Project Design Review</b>
     </td>
     <td>
-    </td>
+    </td>   
     <td class="lab">
 Project Design Review in Class<br>
         <a href="{{ site.baseurl }}/project-logistics">Design Review Requirements</a>
     </td>
     <td>
+        Hands on: USB Charger <br> - Due 10/31
     </td>
     <td>
         Project Layout <br> - Due 10/31
