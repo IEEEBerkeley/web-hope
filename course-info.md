@@ -36,7 +36,7 @@ For students that need extra support time, we will hold staff office hours at th
 
 ### Contact
 
-Please email us at [hope@ieee.berkeley.edu](hope@ieee.berkeley.edu)
+Please email us at [hope@ieee.berkeley.edu](mailto:hope@ieee.berkeley.edu)
 
 ### Project Showcases
 
