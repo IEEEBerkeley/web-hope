@@ -4,6 +4,5 @@ role: Instructor
 photo: roman_silivra.jpg
 ---
 
-Hello, I'm Roman\
-(2nd year EECS),\
+(2nd year EECS), HOPE co-director\
 welcome to HOPE! :D
