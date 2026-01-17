@@ -11,17 +11,17 @@ Through HOPE, you will learn effective printed circuit board (PCB) design and de
 
 ### Enrolling in HOPE
 
-Students who are interested in signing up for HOPE in Fall 2025 should fill out [THIS](https://berkie.ee/hope-fa25-apply) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Spring '25 was [https://decal.studentorg.berkeley.edu/courses/7764](https://decal.studentorg.berkeley.edu/courses/7764).
+Students who are interested in signing up for HOPE in Spring 2026 should fill out [THIS](https://berkie.ee/hope-sp26-apply) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Spring '25 was [https://decal.studentorg.berkeley.edu/courses/7764](https://decal.studentorg.berkeley.edu/courses/7764).
 
 Please email us if you are a concurrent enrollment student- we prioritize matriculated UC Berkeley students. Space permitting, however, concurrent enrollment students are welcome to take HOPE.
 
-Classes begin week of 9/1.
+Classes begin the week of 2026/01/26.
 
 We offer HOPE as an in-person class this semester. We plan to hold two identical sections of class each week (Wed and Thurs), and you can choose which section to enroll in.
 
 ### Prerequisites
 
-HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EE 16B or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. BIOE 105).
+HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EECS 16B or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. BIOE 105).
 
 
 ## Grading
@@ -40,4 +40,4 @@ Please email us at [hope@ieee.berkeley.edu](mailto:hope@ieee.berkeley.edu)
 
 ### Project Showcases
 
-[Spring 2025 Showcase](https://sites.google.com/berkeley.edu/hope-ape-sp25-final-project/home)
+[Fall 2025 Showcase](https://sites.google.com/berkeley.edu/hope-ape-fall-25-final-project/home)

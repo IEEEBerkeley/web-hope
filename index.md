@@ -44,7 +44,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>1</strong> <br>
-        9/3<br>9/4
+        01/28<br>01/29
     </td>
     <td style="text-align: left;">
         <b>Intro to PCB and Schematics</b><br><br>
@@ -78,7 +78,7 @@ This website contains materials from a past semester. Information, assignments, 
 <tr>
     <td style="text-align:center;"> <!-- Week -->
         <strong>2</strong> <br> 
-        9/10<br>9/11
+        02/04<br>02/05
     </td>
     <td style="text-align: left;"> <!-- Topic -->
         <b>Footprints and Layout</b><br><br>
@@ -105,7 +105,7 @@ This website contains materials from a past semester. Information, assignments, 
 <tr>
     <td style="text-align:center;">
         <strong>3</strong> <br> 
-        9/17<br>9/18
+        02/11<br>02/12
     </td>
     <td style="text-align: left;">
                <b>Understanding Components</b><br><br>
@@ -128,7 +128,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>4</strong> <br> 
-        9/24<br>9/25
+        02/18<br>02/19
     </td>
     <td style="text-align: left;">
         <b>PCB Requirements</b><br><br>
@@ -155,7 +155,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>5</strong> <br> 
-        10/1<br>10/2
+        <!-- 10/1<br>10/2 -->
     </td>
     <td style="text-align: left;">
         <b>Microcontroller Basics</b><br><br>
@@ -180,7 +180,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>6</strong> <br> 
-        10/8<br>10/9
+        <!-- 10/8<br>10/9 -->
     </td>
     <td style="text-align: left; line-height: 30px;">
         <b>Assembly and Soldering</b><br><br>
@@ -204,7 +204,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>7</strong> <br> 
-        10/15<br>10/16
+        <!-- 10/15<br>10/16 -->
     </td>
     <td style="text-align: left;">
         <b>Advanced Layout and Passives</b><br><br>
@@ -226,7 +226,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>8</strong> <br> 
-        10/22<br>10/23
+        <!-- 10/22<br>10/23 -->
     </td>
     <td style="text-align: left;">
         <strong>USB Hands-On Experience</strong><br><br>
@@ -246,7 +246,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>9</strong> <br> 
-        10/29<br>10/30
+        <!-- 10/29<br>10/30 -->
     </td>
     <td style="text-align: left;">
         <b>Project Design Review</b>
@@ -266,7 +266,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>10</strong> <br> 
-        11/5<br>11/6
+        <!-- 11/5<br>11/6 -->
     </td>
     <td style="text-align: left;">
         <b>Ordering, Testing, and Bringup</b><br><br>
@@ -288,7 +288,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>11</strong> <br> 
-        11/12<br>11/13
+        <!-- 11/12<br>11/13 -->
     </td>
     <td style="text-align: left;">
         <b>PCB Manufacturing</b><br><br>
@@ -316,7 +316,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>12</strong> <br> 
-        11/19<br>11/20
+        <!-- 11/19<br>11/20 -->
     </td>
     <td style="text-align: left;">
         <strong>Fun Miscellaneous Topics</strong><br><br>
@@ -337,7 +337,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>13</strong> <br> 
-        12/3<br>12/4
+        <!-- 12/3<br>12/4 -->
     </td>
     <td style="text-align: left;">
         <b>Guest Lecture</b>
@@ -355,7 +355,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>14</strong> <br> 
-        12/12
+        <!-- 12/12 -->
     </td>
     <td style="text-align: left;">
         <b>Final Project Showcase</b>
