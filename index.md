@@ -64,7 +64,7 @@ This website contains materials from a past semester. Information, assignments, 
             <a href="{{ site.baseurl }}/labs/lab1">Light Sensor Schematic</a>
     </td>
     <td>
-        Intro to HOPE Quiz - Bcourses
+        <!-- Intro to HOPE Quiz - Bcourses -->
     </td>
     <td>
         <a href="{{ site.baseurl }}/project-logistics">Project Logistics</a> <br><br>
@@ -96,7 +96,7 @@ This website contains materials from a past semester. Information, assignments, 
         <a href="{{ site.baseurl }}/labs/lab2b">Light Sensor Layout</a>
     </td>
     <td> <!-- Lab Checkoff Due -->
-        Light Sensor Schematic <br> - Due 9/12
+        Light Sensor Schematic <br>
     </td>
     <td> <!-- Project Checkpoint -->
     </td>
@@ -121,7 +121,7 @@ This website contains materials from a past semester. Information, assignments, 
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-components">USB Charger Components</a> -->
     </td>
     <td>
-        Light Sensor Components+Layout <br> - Due 9/19
+        Light Sensor Components+Layout <br>
     </td>
     <td>
     </td>
@@ -145,11 +145,11 @@ This website contains materials from a past semester. Information, assignments, 
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-part1/">USB Charger Schematic</a> -->
     </td>
     <td>
-        USB Charger Components <br> - Due 9/26
+        USB Charger Components <br>
     </td>
     <td>
         <a href="http://berkie.ee/hope-fa25-project-group-submission">Project Groups</a> 
-        <br> - Due 9/26
+        <br>
         <br> - (3 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
@@ -171,11 +171,11 @@ This website contains materials from a past semester. Information, assignments, 
         <!-- <a href="https://ieee.berkeley.edu/usb-charger-layout/">USB Charger Layout</a> -->
     </td>
     <td>
-        USB Charger Schematic <br> - Due 10/3
+        USB Charger Schematic <br>
     </td>
     <td>
 <a href="http://berkie.ee/hope-fa25-project-proposal-submission">Project Proposal</a>
-    <br> - Due 10/3
+    <br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -196,7 +196,7 @@ This website contains materials from a past semester. Information, assignments, 
 		Soldering Practice
     </td>
     <td>
-        USB Charger Layout <br> - Due 10/10
+        USB Charger Layout <br>
     </td>
     <td>
         Proposal Review
@@ -218,7 +218,7 @@ This website contains materials from a past semester. Information, assignments, 
         Project Work Session
     </td>
     <td>
-        Hands on: Soldering <br> - Due 10/17
+        Hands on: Soldering <br>
     </td>
     <td>
         Project Work Session
@@ -240,7 +240,7 @@ This website contains materials from a past semester. Information, assignments, 
     <td>
     </td>
     <td>
-        Project BOM &amp; Schematic <br> - Due 10/21
+        Project BOM &amp; Schematic <br>
     </td>
     
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
@@ -258,10 +258,10 @@ Project Design Review in Class<br>
         <a href="{{ site.baseurl }}/project-logistics">Design Review Requirements</a>
     </td>
     <td>
-        Hands on: USB Charger <br> - Due 10/31
+        Hands on: USB Charger <br>
     </td>
     <td>
-        Project Layout <br> - Due 10/31
+        Project Layout <br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -283,7 +283,7 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td>
-        <strong>FINAL PCB files <br> - Due 11/6 (Thursday)</strong>
+        <strong>FINAL PCB files <br> </strong>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -307,7 +307,7 @@ Project Design Review in Class<br>
 	    <!-- <a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a> -->
     </td>
     <td>
-        Trinket Lab <br> - Due 11/25
+        Trinket Lab <br>
     </td>
     <td>
 
@@ -329,7 +329,7 @@ Project Design Review in Class<br>
     <td class="lab">
     </td>
     <td>
-        Trinket Lab <br> - Due 11/25
+        Trinket Lab <br>
     </td>
     <td>
         Project Assembly
@@ -345,10 +345,10 @@ Project Design Review in Class<br>
     <td>
     </td>
     <td class="lab">
-            <a href="http://berkie.ee/hope-fa25-feedback"> End-of-Semester Feedback</a> <br> - Due 12/19 <br>
+            <a href="http://berkie.ee/hope-fa25-feedback"> End-of-Semester Feedback</a> <br><br>
     </td>
     <td>
-            <a href="http://berkie.ee/hope-fa25-project-contribution"> Project Contribution</a> <br> - Due 12/19 <br>
+            <a href="http://berkie.ee/hope-fa25-project-contribution"> Project Contribution</a> <br><br>
     </td>
     <td>
     </td>

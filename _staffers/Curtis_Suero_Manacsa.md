@@ -4,4 +4,4 @@ role: Instructor
 photo: curtis_suero_manacsa.png
 ---
 
-3rd year EECS! HOPE co-director
+4th year EECS! HOPE Co-Director
