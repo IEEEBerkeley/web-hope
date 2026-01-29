@@ -70,7 +70,7 @@ This website contains materials from a past semester. Information, assignments, 
         <a href="{{ site.baseurl }}/project-logistics">Project Logistics</a> <br><br>
         <a href="https://docs.google.com/document/d/1smVeWLNiplKkxcA6GZ_3y53MKBoSkndNkYT-nEIYHTI/edit">Project Spec</a> <br><br>
         <a href="https://docs.google.com/spreadsheets/d/1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo/edit?usp=sharing&amp;ref=ieee.berkeley.edu"> BOM Template</a> <br><br>
-        <a href="https://classroom.github.com/a/wL2dZu3n">Github Classroom</a> <br><br>
+        <!-- <a href="https://classroom.github.com/a/wL2dZu3n">Github Classroom</a> <br><br> -->
         <a href="{{ site.baseurl }}/github-desktop">Git Setup</a> <br><br>
     </td>
 </tr>
