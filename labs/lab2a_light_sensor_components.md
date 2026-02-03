@@ -20,7 +20,7 @@ Digikey is an online marketplace for all manner of electronic components, and is
 # Searching Digikey
 For the light sensor board, there are a total of 9 components:
 - **1** LMC6482 Op-Amp IC *(this single part is represented by the 3 U1 symbol variants in the schematic; it has 2 op-amps in 1 package)*
-- **1** LED
+- **1** Photodiode
 - **3** Resistors
 - **2** Capacitors
 - **1** Potentiometer
@@ -114,3 +114,6 @@ Then, use the following filters, just as you did for the resistors:
 | Capacitance Value | *As noted in the schematic* |
 | Part Status | Active |
 | Stocking Option | In Stock |
+
+## Remaining Components
+Please find the rest of the components listed in the table above and add them to your Digikey cart.
