@@ -148,14 +148,14 @@ This website contains materials from a past semester. Information, assignments, 
         USB Charger Components <br>
     </td>
     <td>
-        <a href="http://berkie.ee/hope-fa25-project-group-submission">Project Groups</a> 
+        <a href="https://berkie.ee/hope-sp26-project-group-submission">Project Groups</a> 
         <br>
         <br> - (3 people minimum)<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>5</strong> <br> 
-        <!-- 10/1<br>10/2 -->
+        2/25<br>2/26
     </td>
     <td style="text-align: left;">
         <b>Microcontroller Basics</b><br><br>
@@ -174,13 +174,13 @@ This website contains materials from a past semester. Information, assignments, 
         USB Charger Schematic <br>
     </td>
     <td>
-<a href="http://berkie.ee/hope-fa25-project-proposal-submission">Project Proposal</a>
+<a href="https://berkie.ee/hope-sp26-project-proposal-submission">Project Proposal</a>
     <br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>6</strong> <br> 
-        <!-- 10/8<br>10/9 -->
+        3/4<br>3/5
     </td>
     <td style="text-align: left; line-height: 30px;">
         <b>Assembly and Soldering</b><br><br>
