@@ -30,7 +30,7 @@ heading_links:
     url: ""
 lecture_prefix: "csXXX-sp25-lec"
 
-# Theme settings
+# Theme settings 
 remote_theme: just-the-docs/just-the-docs@v0.10.0
 # color_scheme: light
 search_enabled: true
@@ -46,7 +46,7 @@ aux_links:
   Extension Request:
     - 'http://berkie.ee/hope-sp26-extension'
   Ed:
-    - 'https://edstem.org/us/courses/73279/'
+    - 'https://edstem.org/us/courses/95724/discussion'
   Berkeley IEEE:
     - 'https://ieee.berkeley.edu'
 footer_content:

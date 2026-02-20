@@ -148,9 +148,11 @@ This website contains materials from a past semester. Information, assignments, 
         USB Charger Components <br>
     </td>
     <td>
-        <a href="http://berkie.ee/hope-fa25-project-group-submission">Project Groups</a> 
-        <br>
-        <br> - (3 people minimum)<br>
+        <a href="http://berkie.ee/hope-sp26-project-group-submission">Project Groups</a> 
+        <br> - Required, 3 people minimum <br>
+        <br><br>
+        <a href="http://berkie.ee/hope-sp26-group-search">Project Group Search Form</a> 
+        <br> - Optional, only if you can't find a group, we will match you with somebody <br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -174,7 +176,7 @@ This website contains materials from a past semester. Information, assignments, 
         USB Charger Schematic <br>
     </td>
     <td>
-<a href="http://berkie.ee/hope-fa25-project-proposal-submission">Project Proposal</a>
+<a href="http://berkie.ee/hope-sp26-project-proposal-submission">Project Proposal</a>
     <br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
