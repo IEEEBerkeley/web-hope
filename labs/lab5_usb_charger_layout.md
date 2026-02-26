@@ -94,7 +94,7 @@ a polygon shape of copper. typically used for power distribution</p>
 <p> To get this board actually made, you will need to export something called Gerbers. Gerbers are set of files that the manufacturer can read for fabrication. Under <code>File &gt; Fabrication Outputs &gt; Gerbers (.gbr)</code>, you'll get a window to output Gerbers. The exact format to use will depend on manufacturer, but you need to export all the relevant layers and drill files. JLCPCB has a handy online service to check your Gerbers are within their design capabilities <a href="https://jlcdfm.com/">here</a>.</p>
 <!--kg-card-end: markdown-->
 <figure class="kg-card kg-image-card kg-card-hascaption"><img src="../assets/lab5/gerber-export.png" class="kg-image" alt="" loading="lazy" width="2000" height="1197"><figcaption></figcaption></figure>
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="../assets/lab5/gebers.png" class="kg-image" alt="" loading="lazy" width="2000" height="1197"><figcaption>Gerber export. Click "Plot" first, then click "Generate Drill Files". We recommend exporting into a new folder called "gerbers", so that you won't get a bunch of manufacturing files in your working directory.</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="../assets/lab5/gerber-settings.png" class="kg-image" alt="" loading="lazy" width="2000" height="1197"><figcaption>Gerber export. Click "Plot" first, then click "Generate Drill Files". We recommend exporting into a new folder called "gerbers", so that you won't get a bunch of manufacturing files in your working directory.</figcaption></figure>
 
 <!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="checkoff">Checkoff</h2>
 <p>For the actual checkoff:</p>
