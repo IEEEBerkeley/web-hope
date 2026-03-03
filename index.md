@@ -337,7 +337,6 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>13</strong> <br> 
-        4/15<br>4/16
     </td>
     <td style="text-align: left;">
         <b>Guest Lecture</b>
@@ -355,7 +354,6 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>14</strong> <br> 
-        4/22<br>4/23
     </td>
     <td style="text-align: left;">
         <b>Final Project Showcase</b>
