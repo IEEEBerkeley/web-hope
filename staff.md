@@ -7,6 +7,25 @@ description: A listing of all the course staff members.
 
 # Staff
 
+## Hope Directors
+
+<div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+    width: 100%
+">
+    {% assign directors = site.staffers | where: 'name', 'Curtis Suero Manacsa' %}
+    {% for staffer in directors %}
+    {{ staffer }}
+    {% endfor %}
+    {% assign directors = site.staffers | where: 'name', 'Roman Silivra' %}
+    {% for staffer in directors %}
+    {{ staffer }}
+    {% endfor %}
+    
+</div>
+
+## Staff
 
 <div style="
     display: grid;
@@ -15,14 +34,12 @@ description: A listing of all the course staff members.
 ">
     {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
     {% for staffer in instructors %}
-    {{ staffer }}
+        {% unless staffer.name == 'Curtis Suero Manacsa' or staffer.name == 'Roman Silivra' %}
+        {{ staffer }}
+        {% endunless %}
     {% endfor %}
     
 </div>
-
-<!-- ## Instructors -->
-
-
 
 # Legacy Staffers
 
