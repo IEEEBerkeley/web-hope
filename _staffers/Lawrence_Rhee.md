@@ -4,4 +4,4 @@ role: Instructor
 photo: lawrence_rhee.jpg
 ---
 
-EECS Junior! Excited to work with everyone :D
+EECS Senior Transfer. I like to play soccer, sing, and creative writing.

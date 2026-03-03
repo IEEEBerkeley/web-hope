@@ -1,7 +1,7 @@
 ---
 name: Curtis Suero Manacsa
 role: Instructor
-photo: curtis_suero_manacsa.png
+photo: curtis_kirk.jpg
 ---
 
 4th year EECS! HOPE Co-Director
