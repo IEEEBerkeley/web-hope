@@ -204,7 +204,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>7</strong> <br> 
-        <!-- 10/15<br>10/16 -->
+        3/4<br>3/5
     </td>
     <td style="text-align: left;">
         <b>Advanced Layout and Passives</b><br><br>
@@ -226,7 +226,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>8</strong> <br> 
-        <!-- 10/22<br>10/23 -->
+        3/11<br>3/12
     </td>
     <td style="text-align: left;">
         <strong>USB Hands-On Experience</strong><br><br>
@@ -246,7 +246,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>9</strong> <br> 
-        <!-- 10/29<br>10/30 -->
+        3/18<br>3/19
     </td>
     <td style="text-align: left;">
         <b>Project Design Review</b>
@@ -266,7 +266,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>10</strong> <br> 
-        <!-- 11/5<br>11/6 -->
+        3/25<br>3/26
     </td>
     <td style="text-align: left;">
         <b>Ordering, Testing, and Bringup</b><br><br>
@@ -288,7 +288,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>11</strong> <br> 
-        <!-- 11/12<br>11/13 -->
+        4/1<br>4/2
     </td>
     <td style="text-align: left;">
         <b>PCB Manufacturing</b><br><br>
@@ -316,7 +316,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>12</strong> <br> 
-        <!-- 11/19<br>11/20 -->
+        4/8<br>4/9
     </td>
     <td style="text-align: left;">
         <strong>Fun Miscellaneous Topics</strong><br><br>
@@ -337,7 +337,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>13</strong> <br> 
-        <!-- 12/3<br>12/4 -->
+        4/15<br>4/16
     </td>
     <td style="text-align: left;">
         <b>Guest Lecture</b>
@@ -355,7 +355,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>14</strong> <br> 
-        <!-- 12/12 -->
+        4/22<br>4/23
     </td>
     <td style="text-align: left;">
         <b>Final Project Showcase</b>

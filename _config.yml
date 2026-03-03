@@ -54,6 +54,7 @@ footer_content:
 # Collections for website data
 collections:
   staffers:
+  legacy_staffers:
   modules:
   schedules:
   announcements:
@@ -62,6 +63,12 @@ defaults:
   - scope:
       path: ''
       type: staffers
+    values:
+      layout: staffer
+      subpath: '/assets/staff_photos/'
+  - scope:
+      path: ''
+      type: legacy_staffers
     values:
       layout: staffer
       subpath: '/assets/staff_photos/'

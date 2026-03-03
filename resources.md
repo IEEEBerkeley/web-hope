@@ -15,23 +15,23 @@ description: Potentially helpful resources for students
 
 [Git Setup Guide](http://localhost:4001/github-desktop)
 
-[Project Group Search Form](http://berkie.ee/hope-fa25-group-search)
+[Project Group Search Form](https://berkie.ee/hope-sp26-group-search)
 
-[Project Group Submission Form](http://berkie.ee/hope-fa25-project-group-submission)
+[Project Group Submission Form](http://berkie.ee/hope-sp26-project-group-submission)
 
-[Project Proposal Form](http://berkie.ee/hope-fa25-project-group)
+[Project Proposal Form](http://berkie.ee/hope-sp26-project-group)
 
 
 
 ## Course Links
 
-[Extension Request Form](http://berkie.ee/hope-fa25-extension)
+[Extension Request Form](http://berkie.ee/hope-sp26-extension)
 
-[HOPE bCourses](https://bcourses.berkeley.edu/courses/1549296)
+[HOPE bCourses](https://bcourses.berkeley.edu/courses/1553922)
 
 ## Other Forms
 
-[Anonymous Feedback Form](http://berkie.ee/hope-fa25-anonymous-comments)
+[Anonymous Feedback Form](http://berkie.ee/hope-sp26-anonymous-comments)
 
 [HOPE Staff Interest Form](http://berkie.ee/hope-fa25-staff-interest)
 

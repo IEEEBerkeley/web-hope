@@ -24,6 +24,19 @@ description: A listing of all the course staff members.
 
 
 
+# Legacy Staffers
+
+<div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+    width: 100%
+">
+    {% for staffer in site.legacy_staffers %}
+    {{ staffer }}
+    {% endfor %}
+    
+</div>
+
 ## Office Hours
 
 Staff will try their best to remove themselves from the calendar at least 24 hours prior to the start of their office hours. If you see a staff member on the calendar, feel free to drop in and ask them questions!
