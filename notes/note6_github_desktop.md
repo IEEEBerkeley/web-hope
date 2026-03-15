@@ -48,7 +48,7 @@ Run the command found here: [https://formulae.brew.sh/cask/github](https://formu
 
 # Basic Usage
 ## Creating and Sharing a Repository with Github Classroom
-+ Follow this link to accept the assignment: [https://classroom.github.com/a/wL2dZu3n](https://classroom.github.com/a/wL2dZu3n) *(Fall 2025)*
++ Follow this link to accept the assignment: [https://classroom.github.com/a/uwAiv-IU](https://classroom.github.com/a/uwAiv-IU) *(Spring 2026)*
 + Create or join your team
 + Accept the assignment to create your repository
 + You may have to accept the assignment through an email!
