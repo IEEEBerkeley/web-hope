@@ -13,7 +13,7 @@ description: Potentially helpful resources for students
 
 [BOM Template](https://docs.google.com/spreadsheets/d/1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo/edit?usp=sharing&ref=ieee.berkeley.edu)
 
-[Git Setup Guide](http://localhost:4001/github-desktop)
+[Git Setup Guide]({{ site.baseurl }}/github-desktop)
 
 [Project Group Search Form](https://berkie.ee/hope-sp26-group-search)
 
