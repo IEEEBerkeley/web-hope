@@ -1,0 +1,247 @@
+---
+layout: page
+title: Staff Links
+nav_exclude: true
+description: Internal staff links (requires authentication).
+---
+
+<style>
+  #auth-section {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  #auth-section p {
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  .google-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #dadce0;
+    border-radius: 6px;
+    background: #fff;
+    color: #3c4043;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: box-shadow 0.2s, background 0.2s;
+    font-family: inherit;
+  }
+  .google-btn:hover {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    background: #f8f9fa;
+  }
+  .google-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  #user-bar {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    background: #f0f4f8;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  #user-bar .user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  #user-bar img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+  #sign-out-btn {
+    padding: 0.35rem 0.9rem;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background: #fff;
+    color: #555;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: inherit;
+  }
+  #sign-out-btn:hover {
+    background: #f1f1f1;
+  }
+  #staff-content {
+    display: none;
+  }
+  #access-denied {
+    display: none;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #c0392b;
+  }
+  #loading-spinner {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+    color: #888;
+  }
+  .links-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  .links-table th {
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 2px solid #e0e0e0;
+    font-weight: 600;
+  }
+  .links-table td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #eee;
+  }
+  .links-table tr:hover td {
+    background: #f8f9fa;
+  }
+  .links-table a {
+    font-weight: 500;
+  }
+</style>
+
+<div id="loading-spinner">Checking authentication...</div>
+
+<div id="auth-section">
+  <p>This page is restricted to HOPE staff. Please sign in with your Berkeley Google account.</p>
+  <button class="google-btn" id="sign-in-btn" onclick="signInWithGoogle()">
+    <svg viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59a14.5 14.5 0 0 1 0-9.18l-7.98-6.19a24.0 24.0 0 0 0 0 21.56l7.98-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+    Sign in with Google
+  </button>
+</div>
+
+<div id="user-bar">
+  <span class="user-info">
+    <img id="user-photo" src="" alt="">
+    <span>Signed in as <strong id="user-email"></strong></span>
+  </span>
+  <button id="sign-out-btn" onclick="signOutUser()">Sign out</button>
+</div>
+
+<div id="access-denied">
+  <h3>Access Denied</h3>
+  <p>Your account (<strong id="denied-email"></strong>) is not authorized to view this page.</p>
+  <p>If you believe this is an error, contact a HOPE director.</p>
+</div>
+
+<div id="staff-content">
+  <h2>Staff Resources</h2>
+  <table class="links-table">
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://berkie.ee/hope-sp26-extension" target="_blank">Extension Request</a></td>
+        <td>Extension request form</td>
+      </tr>
+      <!-- Add more rows here as needed:
+      <tr>
+        <td><a href="URL" target="_blank">Link Name</a></td>
+        <td>Description</td>
+      </tr>
+      -->
+    </tbody>
+  </table>
+</div>
+
+<!-- Firebase SDK (compat mode for simplicity on a static page) -->
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+
+<script>
+  // =============================================================
+  //  TODO: Replace this placeholder config with YOUR Firebase
+  //  project config from the Firebase Console.
+  //  (Project Settings > General > Your apps > Config)
+  // =============================================================
+  const firebaseConfig = {
+    apiKey: "AIzaSyDOpb-HSJVIHu_98XJo0XYfUP3QZJU6x_0",
+    authDomain: "hope-staff-links.firebaseapp.com",
+    projectId: "hope-staff-links",
+    storageBucket: "hope-staff-links.firebasestorage.app",
+    messagingSenderId: "146760656583",
+    appId: "1:146760656583:web:b055db472e1d6cabda80e2"
+  };
+
+  const ALLOWED_EMAILS = [
+    "aleksanderjnorman@berkeley.edu",
+    "lawrencejrhee@berkeley.edu",
+    "curtis_manacsa@berkeley.edu",
+    "ishaan.gupta@berkeley.edu",
+    "xieshizhang@berkeley.edu",
+    "alexnava@berkeley.edu",
+    "carsun@berkeley.edu",
+    "roman.silivra@berkeley.edu",
+    "asingh28@berkeley.edu",
+    "ansh.thakkar@berkeley.edu",
+    "anniezhang2288@berkeley.edu",
+    "janus_sucharitakul@berkeley.edu",
+    "shikha_kath@berkeley.edu",
+    "rahilpasha@berkeley.edu",
+    "ophongsa@berkeley.edu"
+  ];
+
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  const provider = new firebase.auth.GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: "select_account" });
+
+  const authSection    = document.getElementById("auth-section");
+  const userBar        = document.getElementById("user-bar");
+  const staffContent   = document.getElementById("staff-content");
+  const accessDenied   = document.getElementById("access-denied");
+  const loadingSpinner = document.getElementById("loading-spinner");
+
+  function hideAll() {
+    authSection.style.display    = "none";
+    userBar.style.display        = "none";
+    staffContent.style.display   = "none";
+    accessDenied.style.display   = "none";
+    loadingSpinner.style.display = "none";
+  }
+
+  auth.onAuthStateChanged(function(user) {
+    hideAll();
+    if (user) {
+      const email = user.email.toLowerCase();
+      if (ALLOWED_EMAILS.includes(email)) {
+        document.getElementById("user-email").textContent = email;
+        document.getElementById("user-photo").src = user.photoURL || "";
+        userBar.style.display      = "flex";
+        staffContent.style.display = "block";
+      } else {
+        document.getElementById("denied-email").textContent = email;
+        accessDenied.style.display = "block";
+        auth.signOut();
+      }
+    } else {
+      authSection.style.display = "block";
+    }
+  });
+
+  function signInWithGoogle() {
+    loadingSpinner.style.display = "block";
+    authSection.style.display    = "none";
+    auth.signInWithPopup(provider).catch(function(error) {
+      console.error("Sign-in error:", error);
+      hideAll();
+      authSection.style.display = "block";
+    });
+  }
+
+  function signOutUser() {
+    auth.signOut();
+  }
+</script>

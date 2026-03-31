@@ -37,6 +37,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  Staff Links:
+    - '/staff-links/'
   Dark Mode:
     - '#'
   Attendance Form:
