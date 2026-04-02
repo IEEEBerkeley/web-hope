@@ -19,11 +19,15 @@ def fetch_threads():
     limit = 30
 
     while True:
+        url = f"{ED_API_BASE}/courses/{COURSE_ID}/threads"
+        print(f"Fetching: {url} (offset={offset})")
         resp = requests.get(
-            f"{ED_API_BASE}/courses/{COURSE_ID}/threads",
+            url,
             headers=headers,
             params={"limit": limit, "offset": offset, "sort": "new"},
         )
+        if not resp.ok:
+            print(f"Error {resp.status_code}: {resp.text}")
         resp.raise_for_status()
         data = resp.json()
         batch = data.get("threads", [])
