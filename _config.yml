@@ -16,7 +16,7 @@
 title: Hands-On PCB Engineering
 description: Hands-On PCB Engineering at UC Berkeley IEEE Student Branch
 url: 'https://ieee.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor", "_scripts"]
 # Heading settings
 lecture:
   time: "WeTh 8-10PM"
