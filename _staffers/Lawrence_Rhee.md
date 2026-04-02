@@ -4,4 +4,4 @@ role: Instructor
 photo: lawrence_rhee.jpg
 ---
 
-EECS Senior Transfer. I like to play soccer, sing, and creative writing.
+4th Year EECS. I like to play soccer and watch sports.
