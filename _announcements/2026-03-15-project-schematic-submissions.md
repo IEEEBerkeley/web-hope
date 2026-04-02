@@ -1,0 +1,37 @@
+---
+title: "Project Schematic Submissions"
+date: 2026-03-15
+author: "Aarav Singh"
+category: "General"
+type: "announcement"
+---
+
+Hello HOPE students,
+
+Apologies for the delay on instructions for submitting your project schematic. For this assignment, we will be opening up a bcourses submission since we were delayed in setting up the GitHub classroom. For bcourses, please submit a zip archive of your project along with a link to your bill of materials and a pdf of your schematic.
+
+Assignment: https://bcourses.berkeley.edu/courses/1553922/assignments/9050321
+
+(If you need an extension, fill out the extension request on the website)
+
+We have a non-graded checkoff quiz that you can go through to ensure you have completed everything for this project: https://bcourses.berkeley.edu/courses/1553922/quizzes/2532083
+
+
+
+We are going to be using GitHub classroom for all project related submissions going forward. GitHub is useful tool for version control, we have a guide for setting it up here: https://hope.berkie.ee/github-desktop.
+
+If you need help setting this up, you can make a private edpost or come in and ask us in person during office hours or sections.
+
+For joining the GitHub classroom, please join via this link and connect your GitHub account to your name: https://classroom.github.com/a/uwAiv-IU
+
+Once you accept the assignment, check to see if one of your teammates has created a repository already under the join an existing team section.
+
+You can find your group number by clicking on the “Groups” tab on the bcourse’s People page.
+
+If you are the first person in your group to join, please create a team name with the following format: Group-[Group #]-[Project/Team name].
+
+e.g. Group-28-Buck-Converter
+
+If any issues arise during the account linking/ group forming process, you can make a private post on Ed, and I will work with you to resolve it.
+
+ - HOPE Staff
