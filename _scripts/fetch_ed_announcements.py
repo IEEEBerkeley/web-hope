@@ -5,7 +5,7 @@ import requests
 from datetime import datetime
 from pathlib import Path
 
-ED_API_BASE = "https://edstem.org/api"
+ED_API_BASE = "https://us.edstem.org/api"
 COURSE_ID = os.environ.get("ED_COURSE_ID", "95724")
 ED_TOKEN = os.environ["ED_API_TOKEN"]
 
