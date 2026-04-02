@@ -1,14 +1,76 @@
+<style>
+  .announcement {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+  }
+  .announcement h2 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    font-size: 1.2rem;
+  }
+  .announcement-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .announcement-tag {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: #e8f0fe;
+    color: #1a73e8;
+  }
+  .announcement-tag.announcement-type {
+    background: #fce8e6;
+    color: #d93025;
+  }
+  .announcement-body {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: #333;
+  }
+  .announcement-body p {
+    margin-bottom: 0.75rem;
+  }
+  .announcement-body a {
+    word-break: break-all;
+  }
+  .announcement-body ul, .announcement-body ol {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+  }
+  .announcement-body li {
+    margin-bottom: 0.3rem;
+  }
+</style>
+
 <div class="announcement">
   <h2>{{ page.title }}</h2>
-  <span class="announcement-meta">
-    {% if page.date %}
-    {{ page.date | date: '%b %e' }}
-    &middot;
+  <div class="announcement-meta">
+    {% if page.author %}
+      <strong>{{ page.author }}</strong>
+      &middot;
     {% endif %}
-    {% assign minutes = content | strip_html | number_of_words | divided_by: 180.0 | round %}
-    {{ minutes }} min read
-  </span>
-  <div>
+    {% if page.date %}
+      {{ page.date | date: '%b %e, %Y' }}
+    {% endif %}
+    {% if page.type == "announcement" %}
+      <span class="announcement-tag announcement-type">Announcement</span>
+    {% endif %}
+    {% if page.category and page.category != "" %}
+      <span class="announcement-tag">{{ page.category }}</span>
+    {% endif %}
+  </div>
+  <div class="announcement-body">
     {{ content }}
   </div>
 </div>

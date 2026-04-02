@@ -1,6 +1,5 @@
 import os
 import re
-import json
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -10,6 +9,8 @@ COURSE_ID = os.environ.get("ED_COURSE_ID", "95724")
 ED_TOKEN = os.environ["ED_API_TOKEN"]
 
 ANNOUNCEMENTS_DIR = Path(__file__).resolve().parent.parent / "_announcements"
+
+STAFF_ROLES = {"admin", "staff", "teacher", "tutor", "ta"}
 
 
 def fetch_threads():
@@ -41,6 +42,13 @@ def fetch_threads():
     return threads
 
 
+def is_staff_post(thread):
+    user = thread.get("user", {})
+    course_role = (user.get("course_role") or "").lower()
+    role = (user.get("role") or "").lower()
+    return course_role in STAFF_ROLES or role in STAFF_ROLES
+
+
 def slugify(text):
     text = text.lower().strip()
     text = re.sub(r"[^\w\s-]", "", text)
@@ -49,43 +57,27 @@ def slugify(text):
     return text[:80].strip("-")
 
 
-def html_to_markdown(html):
-    """Basic HTML to plain text conversion."""
-    if not html:
-        return ""
-    text = re.sub(r"<br\s*/?>", "\n", html)
-    text = re.sub(r"<p>", "", text)
-    text = re.sub(r"</p>", "\n\n", text)
-    text = re.sub(r"<a\s+href=[\"']([^\"']+)[\"'][^>]*>([^<]+)</a>", r"[\2](\1)", text)
-    text = re.sub(r"<strong>([^<]+)</strong>", r"**\1**", text)
-    text = re.sub(r"<b>([^<]+)</b>", r"**\1**", text)
-    text = re.sub(r"<em>([^<]+)</em>", r"*\1*", text)
-    text = re.sub(r"<i>([^<]+)</i>", r"*\1*", text)
-    text = re.sub(r"<li>([^<]*)</li>", r"- \1\n", text)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
-
 def main():
     ANNOUNCEMENTS_DIR.mkdir(exist_ok=True)
     threads = fetch_threads()
 
-    announcements = [t for t in threads if t.get("type") == "announcement"]
-    if not announcements:
-        announcements = [t for t in threads if t.get("is_announcement")]
-    if not announcements:
-        print(f"No announcements found. Thread types: {set(t.get('type') for t in threads)}")
-        print(f"Checking category field: {set(t.get('category') for t in threads)}")
-        announcements = [t for t in threads if t.get("category", "").lower() == "announcements"]
+    staff_posts = [t for t in threads if is_staff_post(t)]
+    print(f"Found {len(staff_posts)} staff posts out of {len(threads)} total threads.")
 
     existing = {f.stem for f in ANNOUNCEMENTS_DIR.glob("*.md")}
     new_count = 0
 
-    for ann in announcements:
-        title = ann.get("title", "Untitled")
-        created_at = ann.get("created_at", "")
-        content = ann.get("content", ann.get("document", ""))
+    for post in staff_posts:
+        title = post.get("title", "Untitled")
+        created_at = post.get("created_at", "")
+        document = post.get("document", "")
+        content = post.get("content", "")
+        user = post.get("user", {})
+        author = user.get("name", "Staff")
+        category = post.get("category", "")
+        thread_type = post.get("type", "post")
+
+        body = document if document else content
 
         if created_at:
             try:
@@ -100,11 +92,12 @@ def main():
         if slug in existing:
             continue
 
-        body = html_to_markdown(content) if "<" in str(content) else str(content or "")
-
         front_matter = f"""---
 title: "{title.replace('"', '\\"')}"
 date: {date_str}
+author: "{author.replace('"', '\\"')}"
+category: "{category}"
+type: "{thread_type}"
 ---
 
 {body}
@@ -114,7 +107,7 @@ date: {date_str}
         print(f"Created: {filepath.name}")
         new_count += 1
 
-    print(f"Done. {new_count} new announcement(s) added, {len(announcements)} total found.")
+    print(f"Done. {new_count} new post(s) added, {len(staff_posts)} staff posts total.")
 
 
 if __name__ == "__main__":
