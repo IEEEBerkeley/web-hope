@@ -11,24 +11,24 @@ Through HOPE, you will learn effective printed circuit board (PCB) design and de
 
 ### Enrolling in HOPE
 
-Students who are interested in signing up for HOPE in Spring 2026 should fill out [THIS](https://berkie.ee/hope-sp26-apply) enrollment form to recieve a permission code (they will be distributed in batches, first come first serve). Our DeCal listing for Spring '25 was [https://decal.studentorg.berkeley.edu/courses/7764](https://decal.studentorg.berkeley.edu/courses/7764).
+Students who are interested in signing up for HOPE in Fall 2026 should fill out [THIS](https://berkie.ee/hope-fa26-apply) (https://berkie.ee/hope-fa26-apply) enrollment form to receive a permission code (they will be distributed in batches, first come first serve). The enrollment form will open on Saturday (2026/08/29) at noon.
 
 Please email us if you are a concurrent enrollment student- we prioritize matriculated UC Berkeley students. Space permitting, however, concurrent enrollment students are welcome to take HOPE.
 
-Classes begin the week of 2026/01/26.
-
 We offer HOPE as an in-person class this semester. We plan to hold two identical sections of class each week (Wed and Thurs), and you can choose which section to enroll in.
+
+Classes begin the week of 2026/08/31. The first class will be on Wednesday, 2026/09/02.
 
 ### Prerequisites
 
-HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EECS 16B or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. BIOE 105).
+HOPE is not a class about circuits. We expect students to have a basic understanding of circuits. We heavily recommend students satisfy our pre-reqs of EECS 16B (EE 64) or ME 100, or otherwise have a similar level of knowledge in circuits (e.g. BIOE 105).
 
 
 ## Grading
 
 Your grade is primarily based on completion of labs and assignments. The final project is graded both on completion and demonstration of concepts taught in the course. Students need 70% to pass.
 
-See bCourses for detailed [grading breakdown](https://bcourses.berkeley.edu/courses/1553922/pages/grading-breakdown). We will keep track of grade-related things in bCourses. Other course content will be found here on the website.
+See bCourses for detailed [LINK TBD](). We will keep track of grade-related things in bCourses. Other course content will be found here on the website.
 
 ### Office Hours
 
@@ -39,5 +39,7 @@ For students that need extra support time, we will hold staff office hours at th
 Please email us at [hope@ieee.berkeley.edu](mailto:hope@ieee.berkeley.edu)
 
 ### Project Showcases
+
+[Spring 2026 Showcase](https://sites.google.com/berkeley.edu/hopesp26finalprojectshowcase/home)
 
 [Fall 2025 Showcase](https://sites.google.com/berkeley.edu/hope-ape-fall-25-final-project/home)
