@@ -31,6 +31,8 @@ This website contains materials from a past semester. Information, assignments, 
 
 **Lecture:** 8-10PM WeTh, Cory 125
 
+To enroll in the class, please see the enrollment form in "Policies" on the left sidebar.
+
 <!-- _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_ -->
 
 <table id="timeline" style="line-height: normal;">
