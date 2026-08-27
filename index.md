@@ -44,7 +44,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>1</strong> <br>
-        01/28<br>01/29
+        09/02<br>09/03
     </td>
     <td style="text-align: left;">
         <b>Intro to PCB and Schematics</b><br><br>
@@ -78,7 +78,7 @@ This website contains materials from a past semester. Information, assignments, 
 <tr>
     <td style="text-align:center;"> <!-- Week -->
         <strong>2</strong> <br> 
-        02/04<br>02/05
+        09/09<br>09/10
     </td>
     <td style="text-align: left;"> <!-- Topic -->
         <b>Footprints and Layout</b><br><br>
@@ -105,7 +105,7 @@ This website contains materials from a past semester. Information, assignments, 
 <tr>
     <td style="text-align:center;">
         <strong>3</strong> <br> 
-        02/11<br>02/12
+        09/16<br>09/17
     </td>
     <td style="text-align: left;">
                <b>Understanding Components</b><br><br>
@@ -128,7 +128,7 @@ This website contains materials from a past semester. Information, assignments, 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>4</strong> <br> 
-        02/18<br>02/19
+        09/23<br>09/24
     </td>
     <td style="text-align: left;">
         <b>PCB Requirements</b><br><br>
