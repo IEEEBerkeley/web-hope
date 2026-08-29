@@ -25,8 +25,9 @@ Classes begin the week of 2026/08/31. The first class will be on Wednesday, 2026
 
 ### Steps to Enroll in HOPE
 1. Fill out the enrollment form linked above.
-2. Receive the an automated confirming that we received your submission of the Google form.
-3. Receive one of the following emails:
+2. Wait until you receive an automated email confirming that we received your submission of the Google form:
+<img src="/assets/images/Confirmation_email.png" style="border-radius: 0em" alt="Form submission confirmation email">
+3. Wait until you receive one of the following emails:
     - An email with an enrollment code that you can use in CalCentral. If you received this email, proceed to step 4.
     - An email saying that you've been placed on the waitlist. If you received this email, proceed to step 6.
 4. Search up the HOPE section you wish to enroll in. **WARNING**: all HOPE sections are offered as EE 198, but other non-HOPE courses also use this course code. Make sure to select one of the options below. If these sections do not show up in the enrollment center, wait. Enrolling in a different EE 198 that is not group 002 or group 004 will **NOT** enroll you in HOPE.
