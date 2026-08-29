@@ -28,16 +28,17 @@ Classes begin the week of 2026/08/31. The first class will be on Wednesday, 2026
 2. Receive the an automated confirming that we received your submission of the Google form.
 3. Receive one of the following emails:
     - An email with an enrollment code that you can use in CalCentral. If you received this email, proceed to step 4.
-    - An email saying that you've been placed on the waitlist. If you received this email, stop here and follow the instructions in the email.
+    - An email saying that you've been placed on the waitlist. If you received this email, proceed to step 6.
 4. Search up the HOPE section you wish to enroll in. **WARNING**: all HOPE sections are offered as EE 198, but other non-HOPE courses also use this course code. Make sure to select one of the options below. If these sections do not show up in the enrollment center, wait. Enrolling in a different EE 198 that is not group 002 or group 004 will **NOT** enroll you in HOPE.
     - Group #2 (EE198-002): this is the Wednesday section
     - Group #4 (EE198-004): this is the Thursday section
-    - As an example, here both sections from last semester are shown. This image is from Spring 2026, but it has the correct Group numbers.
+    - As an example, below both sections are shown. This image is from Spring 2026, but it has the correct Group numbers.
     <img src="/assets/images/Enrollment_center_search.png" style="border-radius: 0em" alt="Enrollment center section search">
-    - Here is an example of an **incorrect** EE 198 course to add from this semester. Note that it shows Group 24, which is **NOT** either of the HOPE sections.
+    - Below is an example of an **incorrect** EE 198 course to add from this semester. Note that it shows Group 24, which is **NOT** either of the HOPE sections.
     <img src="/assets/images/Enrollment_center_search_incorrect.png" style="border-radius: 0em" alt="Incorrect section">
 5. Proceed to enroll in the course as you would usually do for step 1 of 4. When you reach step 2 of 4, make sure to provide the enrollment code you were given in your email. **NOTE**: enrollment codes are section-specific; a Wednesday enrollment code will not work to enroll in the Thursday section (and vice versa). Do **NOT** share your enrollment code with others, as you may lose your spot to enroll. See below
 <img src="/assets/images/Permission_number.png" style="border-radius: 0em" alt="Enrollment center section search">
+6. Make sure to attend the first two weeks of class and fill out attendance! Enrolled students who do not attend the first two weeks of the semester will be dropped in order to open up space for students on the waitlist that did attend.
 
 ## Grading
 
