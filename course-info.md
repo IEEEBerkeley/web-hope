@@ -32,7 +32,7 @@ Classes begin the week of 2026/08/31. The first class will be on Wednesday, 2026
 4. Search up the HOPE section you wish to enroll in. **WARNING**: all HOPE sections are offered as EE 198, but other non-HOPE courses also use this course code. Make sure to select one of the options below. If these sections do not show up in the enrollment center, wait. Enrolling in a different EE 198 that is not group 002 or group 004 will **NOT** enroll you in HOPE.
     - Group #2 (EE198-002): this is the Wednesday section
     - Group #4 (EE198-004): this is the Thursday section
-    - As an example, here the Thursday (004) section from last semester is shown. This image is from Spring 2026, but it has the correct Group numbers.
+    - As an example, here both sections from last semester are shown. This image is from Spring 2026, but it has the correct Group numbers.
     <img src="/assets/images/Enrollment_center_search.png" style="border-radius: 0em" alt="Enrollment center section search">
     - Here is an example of an **incorrect** EE 198 course to add from this semester. Note that it shows Group 24, which is **NOT** either of the HOPE sections.
     <img src="/assets/images/Enrollment_center_search_incorrect.png" style="border-radius: 0em" alt="Incorrect section">
