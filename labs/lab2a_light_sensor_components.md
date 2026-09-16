@@ -116,4 +116,4 @@ Then, use the following filters, just as you did for the resistors:
 | Stocking Option | In Stock |
 
 ## Remaining Components
-Please find the rest of the components listed in the table above and add them to your Digikey cart.
+Please find the remaining components listed in the **Searching Digikey** section above and add them to your Digikey cart.
