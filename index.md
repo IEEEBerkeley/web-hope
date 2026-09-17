@@ -150,7 +150,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
         USB Charger Components <br>
     </td>
     <td>
-        <a href="https://berkie.ee/hope-sp26-project-group-submission">Project Groups</a> 
+        <a href="https://berkie.ee/hope-fa26-project-group-submission">Project Groups</a> 
         <br>
         <br> - (3 people minimum)<br>
     </td>
