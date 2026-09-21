@@ -153,6 +153,8 @@ For enrollment information, please see the enrollment section in "Policies" on t
         <a href="https://berkie.ee/hope-fa26-project-group-submission">Project Groups</a> 
         <br>
         <br> - (3 people minimum)<br>
+        <a href="https://berkie.ee/hope-fa26-project-group-submission">Project Group Search (Optional)</a>
+        <br> - Fill out this form if you're having trouble finding a group 
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
