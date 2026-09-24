@@ -159,7 +159,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>5</strong> <br> 
-        2/25<br>2/26
+        9/30<br>10/1
     </td>
     <td style="text-align: left;">
         <b>Microcontroller Basics</b><br><br>
@@ -184,7 +184,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>6</strong> <br> 
-        3/4<br>3/5
+        10/7<br>10/8
     </td>
     <td style="text-align: left; line-height: 30px;">
         <b>Assembly and Soldering</b><br><br>
@@ -208,7 +208,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>7</strong> <br> 
-        3/11<br>3/12
+        10/14<br>10/15
     </td>
     <td style="text-align: left;">
         <b>Advanced Layout and Passives</b><br><br>
@@ -231,7 +231,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>8</strong> <br> 
-        3/18<br>3/19
+        10/21<br>10/22
     </td>
     <td style="text-align: left;">
         <strong>USB Hands-On Experience</strong><br><br>
@@ -250,10 +250,10 @@ For enrollment information, please see the enrollment section in "Policies" on t
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>9</strong> <br> 
-        3/25<br>3/26
+        10/28<br>10/29
     </td>
     <td style="text-align: left;">
-        <b>Spring Break - No Section</b>
+        <b>Thanksgiving Break - No Section</b>
     </td>
     <td>
     </td>   
@@ -267,7 +267,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>10</strong> <br> 
-        4/01<br>4/02
+        11/4<br>11/5
     </td>
     <td style="text-align: left;">
         <b>Project Design Review</b>
@@ -286,7 +286,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>11</strong> <br> 
-        4/08<br>4/09
+        11/11<br>11/12
     </td>
     <td style="text-align: left;">
         <b>Ordering, Testing, and Bringup</b><br><br>
@@ -308,7 +308,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>12</strong> <br> 
-        4/15<br>4/16
+        11/18<br>11/19
     </td>
     <td style="text-align: left;">
         <b>PCB Manufacturing</b><br><br>
@@ -336,7 +336,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>13</strong> <br> 
-        4/22<br>4/23
+        11/25<br>11/26
     </td>
     <td style="text-align: left;">
         <strong>Fun Miscellaneous Topics</strong><br><br>
@@ -357,6 +357,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>14</strong> <br> 
+        12/2<br>12/3
     </td>
     <td style="text-align: left;">
         <b>Guest Lecture</b>
@@ -374,6 +375,7 @@ Project Design Review in Class<br>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
         <strong>15</strong> <br> 
+        12/11
     </td>
     <td style="text-align: left;">
         <b>Final Project Showcase</b>
