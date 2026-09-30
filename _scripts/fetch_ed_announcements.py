@@ -3,10 +3,12 @@ import re
 import requests
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ED_API_BASE = "https://us.edstem.org/api"
-COURSE_ID = os.environ.get("ED_COURSE_ID", "95724")
+COURSE_ID = os.environ.get("ED_COURSE_ID", "107016")
 ED_TOKEN = os.environ["ED_API_TOKEN"]
+PACIFIC = ZoneInfo("America/Los_Angeles")
 
 ANNOUNCEMENTS_DIR = Path(__file__).resolve().parent.parent / "_announcements"
 
@@ -61,7 +63,8 @@ def main():
     ANNOUNCEMENTS_DIR.mkdir(exist_ok=True)
     threads = fetch_threads()
 
-    staff_posts = [t for t in threads if is_staff_post(t)]
+    # Private threads are only visible to staff and the author, so never publish them.
+    staff_posts = [t for t in threads if is_staff_post(t) and not t.get("is_private")]
     print(f"Found {len(staff_posts)} staff posts out of {len(threads)} total threads.")
 
     existing = {f.stem for f in ANNOUNCEMENTS_DIR.glob("*.md")}
@@ -73,7 +76,7 @@ def main():
         document = post.get("document", "")
         content = post.get("content", "")
         user = post.get("user", {})
-        author = user.get("name", "Staff")
+        author = "Staff" if post.get("is_anonymous") else user.get("name", "Staff")
         category = post.get("category", "")
         thread_type = post.get("type", "post")
 
@@ -81,12 +84,12 @@ def main():
 
         if created_at:
             try:
-                dt = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+                dt = datetime.fromisoformat(created_at.replace("Z", "+00:00")).astimezone(PACIFIC)
                 date_str = dt.strftime("%Y-%m-%d")
             except (ValueError, TypeError):
-                date_str = datetime.now().strftime("%Y-%m-%d")
+                date_str = datetime.now(PACIFIC).strftime("%Y-%m-%d")
         else:
-            date_str = datetime.now().strftime("%Y-%m-%d")
+            date_str = datetime.now(PACIFIC).strftime("%Y-%m-%d")
 
         slug = f"{date_str}-{slugify(title)}"
         if slug in existing:

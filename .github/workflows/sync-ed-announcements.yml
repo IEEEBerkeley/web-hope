@@ -17,12 +17,12 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: pip install requests
+      - run: pip install requests tzdata
 
       - name: Fetch Ed announcements
         env:
           ED_API_TOKEN: ${{ secrets.ED_API_TOKEN }}
-          ED_COURSE_ID: '95724'
+          ED_COURSE_ID: '107016'
         run: python _scripts/fetch_ed_announcements.py
 
       - name: Commit and push if changed
