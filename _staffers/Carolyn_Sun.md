@@ -1,7 +1,7 @@
 ---
 name: Carolyn Sun
 role: Instructor
-photo: carolyn_sun.jpeg
+photo: carolyn_sun.jpg
 ---
 
-3rd yr ugrad, EECS & Engineering Physics double major!
+4th yr EECS. I like circuits, IC design, and birds 🙂
