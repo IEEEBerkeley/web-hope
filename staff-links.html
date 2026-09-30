@@ -2,6 +2,7 @@
 layout: page
 title: Staff Links
 nav_exclude: true
+search_exclude: true
 description: Internal staff links (requires authentication).
 ---
 
@@ -85,6 +86,10 @@ description: Internal staff links (requires authentication).
     padding: 2rem;
     color: #888;
   }
+  #links-status {
+    display: none;
+    color: #666;
+  }
   .links-table {
     width: 100%;
     border-collapse: collapse;
@@ -110,6 +115,12 @@ description: Internal staff links (requires authentication).
 
 <div id="loading-spinner">Checking authentication...</div>
 
+<div id="access-denied">
+  <h3>Access Denied</h3>
+  <p>Your account (<strong id="denied-email"></strong>) is not authorized to view this page.</p>
+  <p>If you believe this is an error, contact a HOPE director.</p>
+</div>
+
 <div id="auth-section">
   <p>This page is restricted to HOPE staff. Please sign in with your Berkeley Google account.</p>
   <button class="google-btn" id="sign-in-btn" onclick="signInWithGoogle()">
@@ -126,49 +137,24 @@ description: Internal staff links (requires authentication).
   <button id="sign-out-btn" onclick="signOutUser()">Sign out</button>
 </div>
 
-<div id="access-denied">
-  <h3>Access Denied</h3>
-  <p>Your account (<strong id="denied-email"></strong>) is not authorized to view this page.</p>
-  <p>If you believe this is an error, contact a HOPE director.</p>
-</div>
-
 <div id="staff-content">
   <h2>Staff Resources</h2>
-  <table class="links-table">
+  <p id="links-status"></p>
+  <table class="links-table" id="links-table">
     <thead>
       <tr>
         <th>Resource</th>
         <th>Description</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td><a href="https://classroom.github.com/classrooms/235168935-hope-spring2026" target="_blank">TA Link</a></td>
-        <td>GitHub Classroom</td>
-      </tr>
-      <tr>
-        <td><a href="https://docs.google.com/spreadsheets/d/1Z5rOrCIGbPLTNqJUjDgf4aZM2ciBqvZ98wuBmc6Rm5I/edit?resourcekey=&gid=594587890#gid=594587890" target="_blank">SP26 Hope Lab Checkoffs</a></td>
-        <td>Lab checkoff spreadsheet</td>
-      </tr>
-      <tr>
-        <td><a href="https://docs.google.com/spreadsheets/d/1lBeva_-SuMIyUQW_UbfBIKyDyrosSc1LKKOLoudDxRQ/edit?gid=0#gid=0" target="_blank">Staff Bios</a></td>
-        <td>Staff bios spreadsheet</td>
-      </tr>
-      <tr>
-        <td><a href="https://docs.google.com/spreadsheets/d/1m0Lgh2FkYQzul77Zg9P71ddO-UR51xuuuM0rUg_egIY/edit" target="_blank">SP26 Project Sheet</a></td>
-        <td>Project tracking spreadsheet</td>
-      </tr>
-      <tr>
-        <td><a href="https://berkeley.zoom.us/j/95538834822?pwd=iIHLaV9WuQspb7WAz2sd5uW1rH489s.1" target="_blank">Zoom Meeting Link</a></td>
-        <td>Staff Zoom meeting</td>
-      </tr>
-    </tbody>
+    <tbody id="links-body"></tbody>
   </table>
 </div>
 
 <!-- Firebase SDK (compat mode for simplicity on a static page) -->
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
 
 <script>
   const firebaseConfig = {
@@ -180,26 +166,11 @@ description: Internal staff links (requires authentication).
     appId: "1:146760656583:web:b055db472e1d6cabda80e2"
   };
 
-  const ALLOWED_EMAILS = [
-    "aleksanderjnorman@berkeley.edu",
-    "lawrencejrhee@berkeley.edu",
-    "curtis_manacsa@berkeley.edu",
-    "ishaan.gupta@berkeley.edu",
-    "xieshizhang@berkeley.edu",
-    "alexnava@berkeley.edu",
-    "carsun@berkeley.edu",
-    "roman.silivra@berkeley.edu",
-    "asingh28@berkeley.edu",
-    "ansh.thakkar@berkeley.edu",
-    "anniezhang2288@berkeley.edu",
-    "janus_sucharitakul@berkeley.edu",
-    "shikha_kath@berkeley.edu",
-    "rahilpasha@berkeley.edu",
-    "ophongsa@berkeley.edu"
-  ];
-
+  // This page contains no staff links. They are stored in Firestore, and firestore.rules only
+  // returns them to accounts in the "staff" allowlist collection, so Firebase enforces access.
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
+  const db = firebase.firestore();
   const provider = new firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: "select_account" });
 
@@ -208,6 +179,11 @@ description: Internal staff links (requires authentication).
   const staffContent   = document.getElementById("staff-content");
   const accessDenied   = document.getElementById("access-denied");
   const loadingSpinner = document.getElementById("loading-spinner");
+  const linksStatus    = document.getElementById("links-status");
+  const linksTable     = document.getElementById("links-table");
+  const linksBody      = document.getElementById("links-body");
+
+  let deniedEmail = null;
 
   function hideAll() {
     authSection.style.display    = "none";
@@ -217,32 +193,84 @@ description: Internal staff links (requires authentication).
     loadingSpinner.style.display = "none";
   }
 
-  auth.onAuthStateChanged(function(user) {
+  function showSignIn() {
     hideAll();
-    if (user) {
-      const email = user.email.toLowerCase();
-      if (ALLOWED_EMAILS.includes(email)) {
-        document.getElementById("user-email").textContent = email;
-        document.getElementById("user-photo").src = user.photoURL || "";
-        userBar.style.display      = "flex";
-        staffContent.style.display = "block";
-      } else {
-        document.getElementById("denied-email").textContent = email;
-        accessDenied.style.display = "block";
-        auth.signOut();
-      }
-    } else {
-      authSection.style.display = "block";
+    linksBody.replaceChildren();
+    if (deniedEmail) {
+      document.getElementById("denied-email").textContent = deniedEmail;
+      accessDenied.style.display = "block";
     }
+    authSection.style.display = "block";
+  }
+
+  function showStaffContent(user, links, message) {
+    hideAll();
+    document.getElementById("user-email").textContent = user.email;
+    document.getElementById("user-photo").src = user.photoURL || "";
+    linksBody.replaceChildren();
+    links.sort(function(a, b) {
+      return linkOrder(a) - linkOrder(b) || String(a.title).localeCompare(String(b.title));
+    });
+    links.forEach(addLinkRow);
+    linksTable.style.display   = links.length ? "" : "none";
+    linksStatus.textContent    = message;
+    linksStatus.style.display  = message ? "block" : "none";
+    userBar.style.display      = "flex";
+    staffContent.style.display = "block";
+  }
+
+  function linkOrder(link) {
+    return typeof link.order === "number" ? link.order : Infinity;
+  }
+
+  function addLinkRow(link) {
+    const row = linksBody.insertRow();
+    const resourceCell = row.insertCell();
+    const title = link.title || link.url || "";
+    if (/^https?:\/\//i.test(link.url)) {
+      const anchor = document.createElement("a");
+      anchor.href = link.url;
+      anchor.target = "_blank";
+      anchor.rel = "noopener";
+      anchor.textContent = title;
+      resourceCell.appendChild(anchor);
+    } else {
+      resourceCell.textContent = title;
+    }
+    row.insertCell().textContent = link.description || "";
+  }
+
+  auth.onAuthStateChanged(function(user) {
+    if (!user) {
+      showSignIn();
+      return;
+    }
+    hideAll();
+    loadingSpinner.style.display = "block";
+    db.collection("staffLinks").get({ source: "server" }).then(function(snapshot) {
+      if (auth.currentUser?.uid !== user.uid) return;
+      deniedEmail = null;
+      const links = snapshot.docs.map(function(doc) { return doc.data(); });
+      showStaffContent(user, links, links.length ? "" : "No staff links have been added yet.");
+    }).catch(function(error) {
+      if (auth.currentUser?.uid !== user.uid) return;
+      if (error.code === "permission-denied") {
+        deniedEmail = user.email;
+        auth.signOut();
+      } else {
+        console.error("Failed to load staff links:", error);
+        showStaffContent(user, [], "Couldn't load the staff links. Try refreshing the page.");
+      }
+    });
   });
 
   function signInWithGoogle() {
+    deniedEmail = null;
+    hideAll();
     loadingSpinner.style.display = "block";
-    authSection.style.display    = "none";
     auth.signInWithPopup(provider).catch(function(error) {
       console.error("Sign-in error:", error);
-      hideAll();
-      authSection.style.display = "block";
+      showSignIn();
     });
   }
 
