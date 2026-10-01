@@ -155,6 +155,8 @@ For enrollment information, please see the enrollment section in "Policies" on t
         <br> - (4 people per group)<br>
         <a href="https://berkie.ee/hope-fa26-project-group-submission">Project Group Search (Optional)</a>
         <br> - Fill out this form if you're having trouble finding a group 
+        <br><br>
+        <a href="https://berkie.ee/hope-fa26-project-proposal-submission">Project Proposal</a>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -178,8 +180,6 @@ For enrollment information, please see the enrollment section in "Policies" on t
         USB Charger Schematic <br>
     </td>
     <td>
-<a href="https://berkie.ee/hope-sp26-project-proposal-submission">Project Proposal</a>
-    <br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
