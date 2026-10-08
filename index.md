@@ -180,6 +180,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
         USB Charger Schematic <br>
     </td>
     <td>
+        Proposal Review
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -203,7 +204,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
         USB Charger Layout <br>
     </td>
     <td>
-        Proposal Review
+        Project BOM and Schematic
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
