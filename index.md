@@ -227,7 +227,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
     </td>
     <td>
         <!-- Project Work Session <br> -->
-        Project BOM &amp; Schematic
+        <!-- Project BOM &amp; Schematic -->
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
@@ -246,6 +246,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
     <td>
     </td>
     <td>
+        Project Layout
     </td>
     
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
@@ -263,7 +264,7 @@ For enrollment information, please see the enrollment section in "Policies" on t
     <td>
     </td>
     <td>
-        Project Layout <br>
+        <!-- Project Layout <br> -->
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
