@@ -33,7 +33,7 @@ This website contains materials from a past semester. Information, assignments, 
 
 For enrollment information, please see the enrollment section in "Policies" on the left sidebar.
 
-<!-- _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_ -->
+<!-- _[Attendance Form](http://berkie.ee/hope-sp25-attendance)    [Lab Checkoff Form](http://berkie.ee/hope-sp25-checkoff)_ -->
 
 <table id="timeline" style="line-height: normal;">
     <tbody><tr>
@@ -255,23 +255,6 @@ For enrollment information, please see the enrollment section in "Policies" on t
         10/28<br>10/29
     </td>
     <td style="text-align: left;">
-        <b>Thanksgiving Break - No Section</b>
-    </td>
-    <td>
-    </td>   
-    <td class="lab">
-    </td>
-    <td>
-    </td>
-    <td>
-        <!-- Project Layout <br> -->
-    </td>
-</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
-    <td style="text-align:center;">
-        <strong>10</strong> <br> 
-        11/4<br>11/5
-    </td>
-    <td style="text-align: left;">
         <b>Project Design Review</b>
     </td>
     <td>
@@ -287,8 +270,8 @@ Project Design Review in Class<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
-        <strong>11</strong> <br> 
-        11/11<br>11/12
+        <strong>10</strong> <br> 
+        11/4<br>11/5
     </td>
     <td style="text-align: left;">
         <b>Ordering, Testing, and Bringup</b><br><br>
@@ -309,8 +292,8 @@ Project Design Review in Class<br>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
-        <strong>12</strong> <br> 
-        11/18<br>11/19
+        <strong>11</strong> <br> 
+        11/11<br>11/12
     </td>
     <td style="text-align: left;">
         <b>PCB Manufacturing</b><br><br>
@@ -337,8 +320,8 @@ Project Design Review in Class<br>
 
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
-        <strong>13</strong> <br> 
-        11/25<br>11/26
+        <strong>12</strong> <br> 
+        11/18<br>11/19
     </td>
     <td style="text-align: left;">
         <strong>Fun Miscellaneous Topics</strong><br><br>
@@ -355,6 +338,22 @@ Project Design Review in Class<br>
     </td>
     <td>
         Project Assembly
+    </td>
+</tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
+    <td style="text-align:center;">
+        <strong>13</strong> <br> 
+        11/25<br>11/26
+    </td>
+    <td style="text-align: left;">
+        <b>Thanksgiving Break - No Section</b>
+    </td>
+    <td>
+    </td>   
+    <td class="lab">
+    </td>
+    <td>
+    </td>
+    <td>
     </td>
 </tr><!--kg-card-end: html--><!--kg-card-begin: html--><tr>
     <td style="text-align:center;">
