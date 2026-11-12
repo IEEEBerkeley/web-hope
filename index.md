@@ -264,7 +264,7 @@ Project Design Review in Class<br>
         <a href="{{ site.baseurl }}/project-logistics">Design Review Requirements</a>
     </td>
     <td>
-        Hands on: USB Charger <br>
+        <!-- Hands on: USB Charger <br> -->
     </td>
     <td>
     </td>
@@ -308,11 +308,11 @@ Project Design Review in Class<br>
         </ul>
     </td>
     <td class="lab">
-        <a href="{{ site.baseurl }}/labs/lab8">Trinket Lab</a>
+        
 	    <!-- <a href="https://ieee.berkeley.edu/hope-trinket-lab/">Trinket Lab</a> -->
     </td>
     <td>
-        Trinket Lab <br>
+        Hands on: USB Charger <br>
     </td>
     <td>
 
@@ -332,9 +332,10 @@ Project Design Review in Class<br>
 		</li></ul>
     </td>
     <td class="lab">
+        <a href="{{ site.baseurl }}/labs/lab8">Trinket Lab</a>
     </td>
     <td>
-        Trinket Lab <br>
+        
     </td>
     <td>
         Project Assembly
@@ -369,6 +370,7 @@ Project Design Review in Class<br>
             <a href="http://berkie.ee/hope-fa25-feedback"> End-of-Semester Feedback</a> <br><br>
     </td>
     <td>
+            Trinket Lab <br>
             <a href="http://berkie.ee/hope-fa25-project-contribution"> Project Contribution</a> <br><br>
     </td>
     <td>
