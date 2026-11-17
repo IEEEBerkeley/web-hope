@@ -4,4 +4,4 @@ role: Instructor
 photo: anthony_miceli.jpg
 ---
 
-Junior EECS
+Senior EECS
