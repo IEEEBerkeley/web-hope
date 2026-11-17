@@ -4,4 +4,4 @@ role: Instructor
 photo: Janus_Sucharitakul.jpg
 ---
 
-Circuits, circuits, & more circuits
+Sp24-Sp26

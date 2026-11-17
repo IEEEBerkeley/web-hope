@@ -4,4 +4,4 @@ role: Instructor
 photo: ishaan_gupta.webp
 ---
 
-Robotics Enjoyer
+Fa24-Sp26

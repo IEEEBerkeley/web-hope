@@ -4,4 +4,4 @@ role: Instructor
 photo: ailsa_sun.jpg
 ---
 
-Live Laugh Love & Eat Lithium
+Fa24
