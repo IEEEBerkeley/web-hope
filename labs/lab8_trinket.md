@@ -21,8 +21,8 @@ Trinket Lab
 <!--kg-card-begin: html--><div><!--kg-card-end: html--><!--kg-card-begin: html-->      <div class="linkbox">
 <div class="newh2"><a href="https://ieee.berkeley.edu/hope/" style="font-weight: 700;">HOPE Main Page</a></div>
 </div><!--kg-card-end: html--><!--kg-card-begin: markdown--><h1 id="introduction">Introduction</h1>
-<p>This lab will go through how to program an ESP32-S2 with the Arduino environment and perform common project debugging procedures. You'll learn how to use the oscilloscope to look at and understand PWM and I2C signals.</p>
-<!--kg-card-end: markdown--><figure class="kg-card kg-image-card"><img src="../assets/lab8/trinket.png" class="kg-image" alt="" loading="lazy" width="757" height="749"></figure><!--kg-card-begin: markdown--><h1 id="before-or-during-lecture">Before or During Lecture</h1>
+<p>This lab will go through how to program an ESP32-S3 with the Arduino environment and perform common project debugging procedures. You'll learn how to use the oscilloscope to look at and understand PWM and I2C signals.</p>
+<!--kg-card-end: markdown--><figure class="kg-card kg-image-card"><img src="../assets/lab8/trinket_new.png" class="kg-image" alt="" loading="lazy" width="757" height="749"></figure><!--kg-card-begin: markdown--><h1 id="before-or-during-lecture">Before or During Lecture</h1>
 <ol>
 <li>Install the Arduino IDE: <a href="https://www.arduino.cc/en/software?ref=ieee.berkeley.edu">https://www.arduino.cc/en/software</a></li>
 <li>Launch and navigate to the File &gt; Preferences Window</li>
@@ -41,7 +41,7 @@ b. Search up <strong>PCT2075</strong> and install the Adafruit library. Do the s
 <img src="../assets/lab8/trinket7.jpeg" alt="oscope" width="50%/">
 <h2 id="trinket-schematic">Trinket schematic</h2>
 <p>Below is part of the schematic showing which pins are connected to what on the trinket. The bottom two pins are SDA (top) and SCL (bottom) for the I2C:</p>
-<img src="../assets/lab8/trinket_sch.png" alt="trinket schematic" width="50%/">
+<img src="../assets/lab8/trinket_sch_new.png" alt="trinket schematic" width="50%/">
 <!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h1 id="part-0-downloading-starter-code-and-programming">Part 0: Downloading Starter Code and Programming</h1>
 <p>Download our starter Arduino code here: <a href="https://gist.github.com/rgovindjee/4d0c31d0e8dcb66c9798764f958552e0?ref=ieee.berkeley.edu">https://gist.github.com/rgovindjee/4d0c31d0e8dcb66c9798764f958552e0</a></p>
 <p>First, we recommend you display line numbers:<br>
@@ -52,12 +52,12 @@ b. Search up <strong>PCT2075</strong> and install the Adafruit library. Do the s
 <h2 id="arduino-ide-setup">Arduino IDE Setup</h2>
 <p>Before flashing and programming:</p>
 <ul>
-<li>Under Tools &gt; Board, choose <strong>ESP32S2 Dev Module</strong></li>
+<li>Under Tools &gt; Board, choose <strong>ESP32S3 Dev Module</strong></li>
 <li>make sure <strong>USB CDC on Boot is set to "Enabled"</strong></li>
 <li>upload mode is <strong>Internal USB</strong></li>
 </ul>
 <p>All settings should match the image below.</p>
-<p><img src="../assets/lab8/trinket2.png" alt="trinket2" loading="lazy"></p>
+<p><img src="../assets/lab8/trinket2_new.png" alt="trinket2" loading="lazy"></p>
 <h2 id="first-time-programming-instructions">First-time programming instructions</h2>
 <ol>
 <li>Press and <strong>hold down</strong> the BOOT button on the trinket.</li>
@@ -76,7 +76,7 @@ b. Search up <strong>PCT2075</strong> and install the Adafruit library. Do the s
 <img src="../assets/lab8/image.png" alt="programming-image" loading="lazy"></p>
 <p>and the status console at the bottom should eventually show some text about data being written to the ESP32.</p>
 <p><img src="../assets/lab8/trinket1.png" alt="trinket1" loading="lazy"></p>
-<p>You <strong>should</strong> get an error asking you to reset the board.<br>
+<p>You <strong>may</strong> get an error asking you to reset the board.<br>
 Press and release the RESET button. Your code should now be running.</p>
 <p>NOTE: Mac users, if you get an error with Arduino not finding python in $PATH, try the following command in terminal:</p>
 <ul>
