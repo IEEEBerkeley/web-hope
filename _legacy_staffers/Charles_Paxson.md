@@ -4,4 +4,4 @@ role: Instructor
 photo: charles_paxson.webp
 ---
 
-5th Year Master MechE
+Fa24-Fa25

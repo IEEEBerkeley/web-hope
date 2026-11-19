@@ -4,4 +4,4 @@ role: Instructor
 photo: alek_norman.webp
 ---
 
-Circuits, circuits, & more circuits 
+Fa24-Sp26 
